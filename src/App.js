@@ -8,12 +8,13 @@ import Aboutus from './components/Aboutus';
 import Blog from './components/blog'
 import Footer from './components/footer';
 import BG3 from './assests/bg23.jpg'
+import BG4 from './assests/background.png'
 
 function App() {
   return (
     <div className="App">
     
-   <div className=' pb-28  bg-no-repeat bg-cover  ' style={{ backgroundImage:`url(${BG3})` }} >
+   <div className=' pb-28  bg-no-repeat bg-cover  ' style={{ backgroundImage:`url(${BG4})` }} >
    <HeadNav/>
    <Header1/>
    </div>

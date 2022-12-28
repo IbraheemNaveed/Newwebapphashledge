@@ -1,5 +1,5 @@
 import React from 'react'
-import bgg from '../assests/bg.jpg'
+import bgg from '../assests/bg.png'
 import svgimg from '../assests/imgg.svg'
 import Ai from '../assests/ai.jpg'
 import { Link } from 'react-router-dom';
