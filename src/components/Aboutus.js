@@ -7,16 +7,17 @@ import Webdev from '../components/services/webdev'
 const Aboutus = () => {
     return (
 <>
-    <div className='flex flex-col-reverse sm:flex-row m-6 gap-8 '>
-        <div className='sm:text-left text-center flex flex-col gap-4 sm:w-1/2 w-full '>
+<div className='sm:h-[100vh] sm:w-[100wh]  h-full w-full' >
+<div className='flex flex-col-reverse sm:flex-row m-3 gap-8 '>
+        <div className='sm:text-left text-center flex flex-col gap-3 sm:w-1/2 w-full '>
             <h className='text-3xl font-bold  ' >
             What we do
             </h>
-            <p className=' text-xl font-normal  '>
+            <p className=' text-lg font-normal  '>
             Tratech Consulting was born to be different. We are consultants, but not as you know them. 
             </p>
-            <p className='text-xl font-normal'>
-            We dive right in with our clients and help them across all areas of technology transformation, design, implementation and ongoing support. Our team of business analysts, data analysts, project and programme managers and digital transformation experts have unmatched experience and are ready to rise to any challenge.
+            <p className='text-lg font-normal'>
+            We dive right in with our clients and help them across all areas of technology transformation, design.
             </p>
             <div className=' border-l-4 border-red-600 flex px-6'>
            <p className='text-red-600 font-semibold hover:text-yellow-300  '>Every.single.Time</p>
@@ -26,7 +27,7 @@ const Aboutus = () => {
             <img  src={bgg} />
         </div>
     </div>
-    <div className='flex flex-col-reverse sm:flex-row m-6 gap-8 '>
+    <div className='flex flex-col-reverse sm:flex-row m-3 gap-8 '>
         
         <div className='sm:w-1/2 w-full'  >
             <img  src={bgg} />
@@ -39,13 +40,15 @@ const Aboutus = () => {
             Tratech Consulting was born to be different. We are consultants, but not as you know them. 
             </p>
             <p className='text-xl font-normal'>
-            We dive right in with our clients and help them across all areas of technology transformation, design, implementation and ongoing support. Our team of business analysts, data analysts, project and programme managers and digital transformation experts have unmatched experience and are ready to rise to any challenge.
+            We dive right in with our clients and help them across all areas of technology transformation, design.
             </p>
            <div className=' border-l-4 border-red-600 flex px-6'>
            <p className='text-red-600 font-semibold hover:text-yellow-300  '>Find out more</p>
            </div>
         </div>
     </div>
+</div>
+   
     {/* why it is so great comp  */}
     {/* <div className='container my-24 px-6 mx-auto'>
 <div className='mb-32 text-gray-800 text-center'>

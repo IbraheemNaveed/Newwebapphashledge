@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
     
-   <div className='   bg-no-repeat bg-cover   '  style={{ backgroundImage:`url(${BG4})`, height:"100vh", width:'100wh' }} >
+   <div className='   bg-no-repeat bg-cover sm:h-[100vh] sm:w-[100wh]  h-full w-full  '  style={{ backgroundImage:`url(${BG4})` }} >
    <HeadNav/>
    <Header1/>
    </div>
