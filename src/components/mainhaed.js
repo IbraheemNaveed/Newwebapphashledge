@@ -6,7 +6,7 @@ const mainhead = () => {
     <section className='flex flex-col items-center sm:flex-row  py-2 sm:py-8 px-4 mx-auto max-w-screen-xl     '>
       <div>
         
-<div class=" px-6 py-8 md:px-8 text-center md:text-left mt-8 md:w-2/3 w-full">
+<div class=" px-4 py-8 md:px-4 text-center md:text-left mt-8 md:w-3/2 w-full">
     <a href="#">
         <h5 class="mb-6  text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 dark:text-red-800">IT Consultancy That Puts The End-User At The Heart Of The Process</h5>
     </a>
@@ -18,7 +18,7 @@ const mainhead = () => {
 </div>
 
       </div>
-      <div className='bg-gray-200 opacity-90  text-left block rounded-lg shadow-lg   pt-12 md:w-1/2 w-full '>
+      <div className='bg-gray-200 opacity-90  text-left block rounded-lg shadow-lg   pt-12 md:w-4/3  w-full '>
       <form class="w-full max-w-lg px-4 ">
   <div class="flex flex-wrap -mx-3 mb-6">
     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -41,7 +41,7 @@ const mainhead = () => {
         Email
       </label>
       <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-number" type="email" placeholder="info@hashledge.co.uk"/>
-      <p class="text-gray-600 text-xs italic mb-6">Make it as long and as crazy as you'd like</p>
+      <p class="text-red-500 text-xs italic">Please fill out this field.</p>
     </div>
     <div class="w px-3">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-email">

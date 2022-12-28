@@ -10,13 +10,13 @@ const Aboutus = () => {
 <div className='sm:h-[100vh] sm:w-[100wh]  h-full w-full' >
 <div className='flex flex-col-reverse sm:flex-row m-3 gap-8 '>
         <div className='sm:text-left text-center flex flex-col gap-3 sm:w-1/2 w-full '>
-            <h className='text-3xl font-bold  ' >
+            <h className='sm:text-3xl md:text-4xl   font-bold  ' >
             What we do
             </h>
-            <p className=' text-lg font-normal  '>
+            <p className=' md:text-2xl sm:text-lg font-normal  '>
             Tratech Consulting was born to be different. We are consultants, but not as you know them. 
             </p>
-            <p className='text-lg font-normal'>
+            <p className='md:text-2xl sm:text-lg font-normal'>
             We dive right in with our clients and help them across all areas of technology transformation, design.
             </p>
             <div className=' border-l-4 border-red-600 flex px-6'>
@@ -33,13 +33,13 @@ const Aboutus = () => {
             <img  src={bgg} />
         </div>
         <div className='sm:text-left text-center flex flex-col gap-4 sm:w-1/2 w-full '>
-            <h className='text-3xl font-bold  ' >
+            <h className=' sm:text-3xl md:text-4xl font-bold  ' >
             Get to know us
             </h>
-            <p className=' text-xl font-normal  '>
+            <p className=' md:text-2xl sm:text-lg font-normal  '>
             Tratech Consulting was born to be different. We are consultants, but not as you know them. 
             </p>
-            <p className='text-xl font-normal'>
+            <p className='md:text-2xl sm:text-lg font-normal'>
             We dive right in with our clients and help them across all areas of technology transformation, design.
             </p>
            <div className=' border-l-4 border-red-600 flex px-6'>
@@ -126,9 +126,9 @@ Why is it so<u class="text-red-600"> great?</u>
 </div>
     </div> */}
     {/* services */}
-    <div className='container my-24 px-6 mx-auto' > 
+    <div className='container my-24 px-6 mx-auto py-6' > 
     <div className='mb-32 text-gray-800 text-center'>
-    <h2 class="text-3xl font-bold mb-12">Our  <u class="text-blue-600">services</u></h2>
+    <h2 class="text-3xl  font-bold mb-12">Our  <u class="text-blue-600">services</u></h2>
 <div className='grid md:grid-cols-2 gap-x-6 gap-y-12 lg:gap-x-12' >
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
