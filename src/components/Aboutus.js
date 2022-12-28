@@ -1,5 +1,5 @@
 import React from 'react'
-import bgg from '../assests/bg.png'
+import bgg from '../assests/bg.jpg'
 import svgimg from '../assests/imgg.svg'
 import Ai from '../assests/ai.jpg'
 import { Link } from 'react-router-dom';
@@ -47,7 +47,7 @@ const Aboutus = () => {
         </div>
     </div>
     {/* why it is so great comp  */}
-    <div className='container my-24 px-6 mx-auto'>
+    {/* <div className='container my-24 px-6 mx-auto'>
 <div className='mb-32 text-gray-800 text-center'>
     <div className='flex justify-center'>
         <div className='text-center max-w-[700px]'>
@@ -121,7 +121,7 @@ Why is it so<u class="text-red-600"> great?</u>
       </div>
     </div>
 </div>
-    </div>
+    </div> */}
     {/* services */}
     <div className='container my-24 px-6 mx-auto' > 
     <div className='mb-32 text-gray-800 text-center'>

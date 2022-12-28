@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 const mainhead = () => {
     return (
    <>
-    <section className='flex flex-col sm:flex-row justify-between py-2 sm:py-8 px-4 mx-auto max-w-screen-xl  lg:py-32 lg:px-12   '>
+    <section className='flex flex-col items-center sm:flex-row  py-2 sm:py-8 px-4 mx-auto max-w-screen-xl     '>
       <div>
         
-<div class=" px-6 py-12 md:px-8 text-center md:text-left mt-8 md:w-2/3 w-full">
+<div class=" px-6 py-8 md:px-8 text-center md:text-left mt-8 md:w-2/3 w-full">
     <a href="#">
         <h5 class="mb-6  text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 dark:text-red-800">IT Consultancy That Puts The End-User At The Heart Of The Process</h5>
     </a>
