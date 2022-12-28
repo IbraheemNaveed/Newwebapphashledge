@@ -1,19 +1,16 @@
 {
-  "name": "iot_project",
+  "name": "hashledge",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "firebase": "^9.8.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-router-dom": "^6.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropdown": "^1.11.0",
+    "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
-    "react-scroll": "^1.8.7",
-    "react-select": "^5.3.2",
-    "swiper": "^8.1.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -41,8 +38,8 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.13",
-    "tailwindcss": "^3.0.24"
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
   }
 }

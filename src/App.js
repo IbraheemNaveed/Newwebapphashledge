@@ -1,39 +1,25 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import LandingPage from "./components/main";
-import Register from "./components/register";
-import Login from "./components/login";
-import Result from "./components/result";
-import New from "./components/NEW"
-import { UserContext } from "./context/usercontext";
-function App() {
-  const userData = localStorage.getItem("user")
-    ? localStorage.getItem("user")
-    : {
-        name: "",
-        email: "",
-        password: "",
-      };
-  const [user, setUser] = useState(userData);
-  return (
-    <UserContext.Provider value={{ user: user, setUser: setUser }}>
-      <Router>
-        {/* <Navigation />
-      <hr /> */}
-        <Routes>
-          {user.name !== "" ? (
-            <Route exact path="/" element={<LandingPage />} />
-          ) : (
-            <Route exact path="/" element={<LandingPage />} />
-          )}
-          <Route exact path="/register" element={<Register />} />
-          <Route exact path="/login" element={<Login />} />
-          <Route exact path="/result" element={<Result />} />
-          <Route exact path="/New" element={<New />} />
+import logo from './logo.svg';
+import './App.css';
+import HeadNav from './components/headerNav';
+import Header1 from './components/mainhaed';
+import BGhead from './assests/bg.jpg';
+import BGhead2 from './assests/bgg.png';
+import Aboutus from './components/Aboutus';
+import Blog from './components/blog'
+import Footer from './components/footer';
 
-        </Routes>
-      </Router>
-    </UserContext.Provider>
+function App() {
+  return (
+    <div className="App">
+    
+   <div className=' pb-28  bg-cover  ' style={{ backgroundImage:`url(${BGhead})` }} >
+   <HeadNav/>
+   <Header1/>
+   </div>
+   <Aboutus/>
+   <Blog/>
+   <Footer/>
+    </div>
   );
 }
 

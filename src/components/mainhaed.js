@@ -1,0 +1,72 @@
+import React from 'react'
+const mainhead = () => {
+    return (
+   <>
+    <div className='flex flex-col sm:flex-row justify-between mx-2 sm:mx-10 '>
+      <div>
+        
+<div class=" px-6 py-12 md:px-8 text-center md:text-left mt-8 md:w-2/3 w-full">
+    <a href="#">
+        <h5 class="mb-2  text-4xl font-bold tracking-tight text-gray-900 dark:text-red-800">IT Consultancy That Puts The End-User At The Heart Of The Process</h5>
+    </a>
+    <p class="mb-3 font-normal text-2xl text-gray-700 dark:text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        See how can we help you
+        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    </a>
+</div>
+
+      </div>
+      <div className='bg-gray-200 opacity-90 p-3  block rounded-lg shadow-lg   py-12 md:w-1/2 w-full '>
+      <form class="w-full max-w-lg px-4 ">
+  <div class="flex flex-wrap -mx-3 mb-6">
+    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+        First Name
+      </label>
+      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane"/>
+      <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+    </div>
+    <div class="w-full md:w-1/2 px-3">
+      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+        Last Name
+      </label>
+      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe"/>
+    </div>
+  </div>
+  <div class="flex flex-wrap -mx-3 mb-6">
+    <div class="w-1/2 px-3">
+      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-email">
+        Email
+      </label>
+      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-number" type="email" placeholder="info@hashledge.co.uk"/>
+      <p class="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
+    </div>
+    <div class="w-1/2 px-3">
+      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-email">
+        Phone Number
+      </label>
+      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-number" type="number" placeholder="+447975777666"/>
+      <p class="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
+    </div>
+    
+  </div>
+  <div class="flex items-center justify-between">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+        Request a call back
+      </button>
+      <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
+        Need Help?
+      </a>
+    </div>
+  
+
+</form>
+      </div>
+    </div>
+   </>
+        );
+    };
+    
+    export default mainhead;
+    
