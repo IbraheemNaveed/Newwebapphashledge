@@ -4,7 +4,7 @@ import webdev from '../assests/web.png'
 import svgimg from '../assests/imgg.svg'
 import Ai from '../assests/ai.jpg'
 import p1 from '../assests/NewAssets/P1.png'
-import Webdev from './services/Webde'
+import Webdev from './services/Webdev'
 import P2 from '../assests/NewAssets/P2.png'
 import { Link } from 'react-router-dom';
 const Aboutus = () => {
