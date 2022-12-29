@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import HeadNav from './components/HeaderNav';
+import HeadNav from './components/Headernavb';
 import Header1 from './components/Mainhaed';
 import BGhead from './assests/bg.jpg';
 import Aboutus from './components/Aboutus';
@@ -20,6 +20,7 @@ import Blog4 from './components/Blogs/Blog4';
 import Error from './components/Error';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import GraphicD from './components/services/GraphicD';
+import HeaderNav from './components/Headernavb';
 import { Children } from 'react';
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
          <>
           <BrowserRouter>
     <Routes>
-      <Route path='/'  element= {<HeadNav/>}>
+      <Route path='/'  element= {<HeaderNav/>}>
       <Route index element={<Mainpage1/>}/>
       <Route path='about' element={<Aboutus/>} />
       <Route path='blog' element={<Blog/>} />
