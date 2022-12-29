@@ -1,13 +1,15 @@
 import React from 'react'
-import bgg from '../assests/bg.jpg'
+import bgg from '../assests/bg.jpg';
+import webdev from '../assests/web.png'
 import svgimg from '../assests/imgg.svg'
 import Ai from '../assests/ai.jpg'
-import { Link } from 'react-router-dom';
+import p1 from '../assests/NewAssets/P1.png'
 import Webdev from '../components/services/webdev'
+import P2 from '../assests/NewAssets/P2.png'
 const Aboutus = () => {
     return (
 <>
-<div className='sm:h-[100vh] sm:w-[100wh]  h-full w-full' >
+<div className=' ' >
 <div className='flex flex-col-reverse sm:flex-row m-3 gap-8 '>
         <div className='sm:text-left text-center flex flex-col gap-3 sm:w-1/2 w-full '>
             <h className='sm:text-3xl md:text-4xl   font-bold  ' >
@@ -24,7 +26,7 @@ const Aboutus = () => {
            </div>
         </div>
         <div className='sm:w-1/2 w-full' >
-            <img  src={bgg} />
+            <img  src={webdev} />
         </div>
     </div>
     <div className='flex flex-col-reverse sm:flex-row m-3 gap-8 '>
@@ -126,14 +128,14 @@ Why is it so<u class="text-red-600"> great?</u>
 </div>
     </div> */}
     {/* services */}
-    <div className='container my-24 px-6 mx-auto py-6' > 
+    <div className='container my-24 px-6 mx-auto py-6 ' > 
     <div className='mb-32 text-gray-800 text-center'>
     <h2 class="text-3xl  font-bold mb-12">Our  <u class="text-blue-600">services</u></h2>
 <div className='grid md:grid-cols-2 gap-x-6 gap-y-12 lg:gap-x-12' >
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full rounded-t-lg' src={Ai} />
+<img className='w-full rounded-t-lg' src={p1} />
 <a href="#!">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </a>
@@ -181,7 +183,7 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full rounded-t-lg' src={Ai} />
+<img className='w-full rounded-t-lg' src={P2} />
 <a href=<Webdev/> >
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </a>
