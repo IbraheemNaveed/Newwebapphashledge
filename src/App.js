@@ -20,6 +20,7 @@ import Blog4 from './components/Blogs/Blog4';
 import Error from './components/Error';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import GraphicD from './components/services/GraphicD';
+import HeaderNav from './components/HeaderNav';
 import { Children } from 'react';
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
          <>
           <BrowserRouter>
     <Routes>
-      <Route path='/'  element= {<HeadNav/>}>
+      <Route path='/'  element= {<HeaderNav/>}>
       <Route index element={<Mainpage1/>}/>
       <Route path='about' element={<Aboutus/>} />
       <Route path='blog' element={<Blog/>} />
