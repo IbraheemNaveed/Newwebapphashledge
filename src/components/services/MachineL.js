@@ -2,7 +2,12 @@ import React from 'react'
 
 function MachineL() {
   return (
-    <div>MachineL</div>
+    <div>
+
+
+
+        
+    </div>
   )
 }
 
