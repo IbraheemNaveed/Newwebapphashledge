@@ -4,8 +4,9 @@ import webdev from '../assests/web.png'
 import svgimg from '../assests/imgg.svg'
 import Ai from '../assests/ai.jpg'
 import p1 from '../assests/NewAssets/P1.png'
-import Webdev from '../components/services/webdev'
+import Webdev from './services/Webdev'
 import P2 from '../assests/NewAssets/P2.png'
+import { Link } from 'react-router-dom';
 const Aboutus = () => {
     return (
 <>
@@ -135,13 +136,13 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full rounded-t-lg' src={p1} />
-<a href="#!">
+<img className='w-full h-72 rounded-t-lg' src={p1} />
+<Link to="/webdev">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
- </a>
+ </Link>
  <img className='bg-black' src={svgimg} />
  <div class="px-6  ">
-            <h5 class="text-lg font-bold mb-4">Digital Transformation Consultant</h5>
+            <h5 class="text-lg font-bold mb-4">Web Development</h5>
             <p class="text-gray-500 mb-4">As companies start to look at a post-COVID world, the way in which consumers engage with businesses has shifted dramatically. Consumers expect bigger and better from companies in terms of their services, delivery and customer experience. As a result, most companies have had to implement some form of digital presence to not only survive but also stay ahead of the competition. In .</p>
             </div>
 </div>
@@ -151,13 +152,13 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full rounded-t-lg' src={Ai} />
-<a href="#!">
+<img className='w-full h-72 rounded-t-lg' src={Ai} />
+<Link to="/blockchain">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
- </a>
+ </Link>
  <img className='bg-black' src={svgimg} />
  <div class="px-6  ">
-            <h5 class="text-lg font-bold mb-4">Digital Transformation Consultant</h5>
+            <h5 class="text-lg font-bold mb-4">Blockcahim</h5>
             <p class="text-gray-500 mb-4">As companies start to look at a post-COVID world, the way in which consumers engage with businesses has shifted dramatically. Consumers expect bigger and better from companies in terms of their services, delivery and customer experience. As a result, most companies have had to implement some form of digital presence to not only survive but also stay ahead of the competition. In .</p>
             </div>
 </div>
@@ -167,13 +168,13 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full rounded-t-lg' src={Ai} />
-<a href="#!">
+<img className='w-full h-72 rounded-t-lg' src={Ai} />
+<Link to="/machine">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
- </a>
+ </Link>
  <img className='bg-black' src={svgimg} />
  <div class="px-6  ">
-            <h5 class="text-lg font-bold mb-4">Digital Transformation Consultant</h5>
+            <h5 class="text-lg font-bold mb-4"> Machine Learning</h5>
             <p class="text-gray-500 mb-4">As companies start to look at a post-COVID world, the way in which consumers engage with businesses has shifted dramatically. Consumers expect bigger and better from companies in terms of their services, delivery and customer experience. As a result, most companies have had to implement some form of digital presence to not only survive but also stay ahead of the competition. In .</p>
             </div>
 </div>
@@ -183,13 +184,13 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full rounded-t-lg' src={P2} />
-<a href=<Webdev/> >
+<img className='w-full h-72 rounded-t-lg' src={P2} />
+<Link to="/graphic" >
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
- </a>
+ </Link>
  <img className='bg-black' src={svgimg} />
  <div class="px-6  ">
-            <h5 class="text-lg font-bold mb-4">Digital Transformation Consultant</h5>
+            <h5 class="text-lg font-bold mb-4">Graphic Design </h5>
             <p class="text-gray-500 mb-4">As companies start to look at a post-COVID world, the way in which consumers engage with businesses has shifted dramatically. Consumers expect bigger and better from companies in terms of their services, delivery and customer experience. As a result, most companies have had to implement some form of digital presence to not only survive but also stay ahead of the competition. In .</p>
             </div>
 </div>

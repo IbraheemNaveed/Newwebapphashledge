@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 const mainhead = () => {
     return (
    <>
@@ -25,7 +25,7 @@ const mainhead = () => {
 </div>
 
       </div>
-      <div className='bg-gray-200 opacity-90  text-left block rounded-lg shadow-lg   pt-12 md:w-4/3  w-full '>
+      {/* <div className='bg-gray-200 opacity-90  text-left block rounded-lg shadow-lg   pt-12 md:w-4/3  w-full '>
       <form class="w-full max-w-lg px-4 ">
   <div class="flex flex-wrap -mx-3 mb-6">
     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -59,21 +59,21 @@ const mainhead = () => {
     </div>
     
   </div>
-  {/* <div class="flex flex-col items-center justify-between gap-6">
+  <div class="flex flex-col items-center justify-between gap-6">
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
         Request a call back
       </button>
       <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
         Need Help?
       </a>
-    </div> */}
+    </div>
     <div className=' border-l-4 border-red-600 flex px-6 mb-3'>
            <p className='text-red-600 font-semibold hover:text-black  '> Request a call back</p>
            </div>
   
 
 </form>
-      </div>
+      </div> */}
     </section>
    </>
         );

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Bgg from '../assests/bg.jpg'
 const blog = () => {
     return (
@@ -109,6 +110,7 @@ const blog = () => {
 <div className='mb-32 text-gray-800 text-center'>
 <h2 class="text-3xl font-bold mb-12 text-center">Latest articles</h2>
 <div className='grid lg:grid-cols-3 gap-6 xl:gap-x-12'>
+<Link to="/blog1">
 <div className='mb-6 lg:mb-0'> 
 <img src={Bgg} />
 <h5 class="text-lg font-bold mb-3">Welcome to California</h5>
@@ -125,6 +127,8 @@ const blog = () => {
             elementum. Donec a ullamcorper diam.
           </p>
 </div>
+</Link>
+<Link to="/blog2">
 <div className='mb-6 lg:mb-0'> 
 <img src={Bgg} />
 <h5 class="text-lg font-bold mb-3">Welcome to California</h5>
@@ -141,6 +145,8 @@ const blog = () => {
             elementum. Donec a ullamcorper diam.
           </p>
 </div>
+</Link>
+<Link to="/blog3">
 <div className='mb-6 lg:mb-0'> 
 <img src={Bgg} />
 <h5 class="text-lg font-bold mb-3">Welcome to California</h5>
@@ -156,7 +162,8 @@ const blog = () => {
             placerat vulputate. Ut vulputate est non quam dignissim
             elementum. Donec a ullamcorper diam.
           </p>
-</div>  
+</div>
+</Link> 
 </div>
 
 </div>

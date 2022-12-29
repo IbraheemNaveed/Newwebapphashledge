@@ -1,11 +1,11 @@
 import React from 'react'
-const webdev = () => {
+const Webdev = () => {
     return (
         <div>
-            <p>bjhbckjasxnsakjcbakjcnakjns</p>
+           webdev
         </div>
         );
     };
     
-    export default webdev;
+    export default Webdev;
     
