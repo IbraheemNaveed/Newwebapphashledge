@@ -9,7 +9,7 @@ import Footer from './components/footer';
 import BG3 from './assests/bg23.jpg'
 import BG4 from './assests/background.png'
 import Mainpage1 from './components/Mainpage';
-import Webdev from './components/services/Webdev';
+import Webdev from './components/services/Webde';
 import MachineL from './components/services/MachineL';
 import Blockcahim from './components/services/Blockcahim';
 import Blog1 from './components/Blogs/Blog1';
