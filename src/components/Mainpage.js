@@ -1,5 +1,5 @@
 import React from 'react'
-import HeadNav from './HeaderNav';
+import HeadNav from './Headernavb';
 import Header1 from './Mainhaed';
 import Bg24 from '../assests/bg24.png'
 

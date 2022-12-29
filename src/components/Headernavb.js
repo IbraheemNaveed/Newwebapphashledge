@@ -4,7 +4,7 @@ import Aboutus from "./Aboutus";
 import Aboutus2 from "./Aboutus";
 import { Link } from "react-router-dom";
 import { Outlet } from 'react-router-dom';
-function HeaderNav() {
+function Headernavb() {
  const [navbar, setNavbar] = useState(false);
 return (
 
@@ -85,5 +85,5 @@ return (
 
 );
                       }
-    export default HeaderNav;
+    export default Headernavb;
     
