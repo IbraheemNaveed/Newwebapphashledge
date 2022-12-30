@@ -1,14 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import HeadNav from './components/Headernavb';
-import Header1 from './components/Mainhaed';
 import BGhead from './assests/bg.jpg';
 import Aboutus from './components/Aboutus';
 import Blog from './components/blog'
 import Footer from './components/footer';
-import BG3 from './assests/bg23.jpg'
-import BG4 from './assests/background.png'
-import Bg24 from './assests/bg24.png'
 import Mainpage1 from './components/Mainpage';
 import Webdev from './components/services/Webdev';
 import MachineL from './components/services/MachineL';

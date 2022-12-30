@@ -1,6 +1,5 @@
 import React from 'react'
-import HeadNav from './Headernavb';
-import Header1 from './Mainhaed';
+import Header1 from './MainHeader';
 import Bg24 from '../assests/bg24.png'
 
 export default function Mainpage(props) {

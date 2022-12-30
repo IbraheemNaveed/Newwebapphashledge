@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-const Mainhaedc = () => {
+const MainHeader = () => {
     return (
    <>
     <section className='flex flex-col items-center sm:flex-row  px-4 mx-auto max-w-screen-xl     '>
@@ -78,5 +78,5 @@ const Mainhaedc = () => {
         );
     };
     
-    export default Mainhaedc;
+    export default MainHeader;
     
