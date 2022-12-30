@@ -72,7 +72,7 @@ return (
                                 <Link to="/blog">Bog</Link>
                             </li>
                             <li className="text-black hover:text-blue-600">
-                                <Link to="/footer">Contact US</Link>
+                                <Link to="/contactus">Contact US</Link>
                             </li>
                         </ul>
                     </div>

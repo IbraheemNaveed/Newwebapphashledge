@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function footer() {
   return (
     <div>
-        <footer class="text-center lg:text-left bg-black text-white sm:h-[100vh] sm:w-[100wh]  h-full w-full">
+        <footer class="text-center lg:text-left bg-black text-white ">
   <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div class="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>

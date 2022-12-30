@@ -16,6 +16,7 @@ import Error from './components/Error';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import GraphicD from './components/services/GraphicD';
 import HeaderNav from './components/Headernavb';
+import Contactus1 from './components/Contactus';
 import { Children } from 'react';
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
     <Routes>
       <Route path='/'  element= {<HeaderNav/>}>
       <Route index element={<Mainpage1/>}/>
-      <Route path='about' element={<Aboutus/>} />
+      <Route path='about' element={<Aboutus/>}/>
+      <Route path='contactus' element={<Contactus1/>} />
       <Route path='blog' element={<Blog/>} />
       <Route path='footer' element={<Footer/>}  /></Route>
       <Route path='*' element={<Error/>}/>
