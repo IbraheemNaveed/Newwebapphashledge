@@ -4,9 +4,15 @@ import webdev from '../assests/web.png'
 import svgimg from '../assests/imgg.svg'
 import Ai from '../assests/ai.jpg'
 import p1 from '../assests/NewAssets/P1.png'
+import Whatwedo from '../assests/NewAssets/whatwe.png'
 import Webdev from './services/Webdev'
 import P2 from '../assests/NewAssets/P2.png'
+import Gettoknowus from '../assests/NewAssets/gettoknowus.png'
 import { Link } from 'react-router-dom';
+import Digital from '../assests/NewAssets/DigitalTransformation.png';
+import Dataanaly from '../assests/NewAssets/DataAnalytics.png'
+import Webdesign from '../assests/NewAssets/webdesign.png'
+import Blockcahin from '../assests/NewAssets/Blockchain.png'
 const Aboutus = () => {
     return (
 <>
@@ -14,8 +20,8 @@ const Aboutus = () => {
 
 
 
-<div className=' ' >
-<div className='flex flex-col-reverse sm:flex-row m-3 gap-8 '>
+<div className='  ' >
+<div className='flex flex-col-reverse sm:flex-row m-12 gap-8 '>
         <div className='sm:text-left text-center flex flex-col gap-3 sm:w-1/2 w-full '>
             <h className='sm:text-3xl md:text-4xl   font-bold  ' >
             What we do 
@@ -30,14 +36,14 @@ const Aboutus = () => {
            <p className='text-red-600 font-semibold hover:text-yellow-300  '>Every.single.Time</p>
            </div>
         </div>
-        <div className='sm:w-1/2 w-full' >
-            <img  src={webdev} />
+        <div className='sm:w-1/2 flex justify-center w-full' >
+            <img className='w-96' src={Whatwedo} />
         </div>
     </div>
-    <div className='flex flex-col-reverse sm:flex-row m-3 gap-8 '>
+    <div className='flex flex-col-reverse sm:flex-row m-12 gap-8 '>
         
-        <div className='sm:w-1/2 w-full'  >
-            <img  src={bgg} />
+        <div className='sm:w-1/2 flex justify-center w-full'  >
+            <img className='w-96' src={Gettoknowus} />
         </div>
         <div className='sm:text-left text-center flex flex-col gap-4 sm:w-1/2 w-full '>
             <h className=' sm:text-3xl md:text-4xl font-bold  ' >
@@ -140,7 +146,7 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full h-72 rounded-t-lg' src={p1} />
+<img className='w-full h-72 rounded-t-lg' src={Digital} />
 <Link to="/webdev">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
@@ -156,7 +162,7 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full h-72 rounded-t-lg' src={Ai} />
+<img className='w-full h-72 rounded-t-lg' src={Dataanaly} />
 <Link to="/blockchain">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
@@ -172,7 +178,7 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full h-72 rounded-t-lg' src={Ai} />
+<img className='w-full h-72 rounded-t-lg' src={Webdesign} />
 <Link to="/machine">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
@@ -188,7 +194,7 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full h-72 rounded-t-lg' src={P2} />
+<img className='w-full h-72 rounded-t-lg' src={Blockcahin} />
 <Link to="/graphic" >
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
