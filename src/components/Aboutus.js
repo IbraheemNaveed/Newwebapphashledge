@@ -150,7 +150,7 @@ Why is it so<u class="text-red-600"> great?</u>
 <Link to="/webdev">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
- <img className='bg-inherit -mt-32 '  src={svgimg} />
+ <img className='bg-inherit lg:-mt-32 sm:-mt-16 -mt-14 '  src={svgimg} />
  <div class="px-6  ">
             <h5 class="text-lg font-bold mb-4">Digital Transformation</h5>
             <p class="text-gray-500 mb-4">We help businesses and organizations modernize and streamline their processes and systems through the use of technology. This may involve implementing new software and platforms, integrating existing systems, or developing custom solutions.</p>
@@ -166,7 +166,7 @@ Why is it so<u class="text-red-600"> great?</u>
 <Link to="/blockchain">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
- <img className='bg-inherit -mt-32' src={svgimg} />
+ <img className='bg-inherit lg:-mt-32 sm:-mt-16 -mt-14' src={svgimg} />
  <div class="px-6  ">
             <h5 class="text-lg font-bold mb-4">Data Analytics</h5>
             <p class="text-gray-500 mb-4">We use data to help our clients make better informed decisions. This may involve collecting and analyzing data from various sources, developing dashboards and reports, or providing data-driven insights and recommendations.</p>
@@ -182,7 +182,7 @@ Why is it so<u class="text-red-600"> great?</u>
 <Link to="/machine">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
- <img className='bg-inherit -mt-32' src={svgimg} />
+ <img className='bg-inherit lg:-mt-32 sm:-mt-16 -mt-14' src={svgimg} />
  <div class="px-6  ">
             <h5 class="text-lg font-bold mb-4">Web Design</h5>
             <p class="text-gray-500 mb-4">We design and build websites that are visually appealing, easy to use, and optimized for search engines. We also offer ongoing maintenance and support to ensure that your website stays up to date and running smoothly.</p>
@@ -194,11 +194,11 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full h-72 rounded-t-lg' src={Blockcahin} />
+<img className='w-full  sm:h-72 rounded-t-lg' src={Blockcahin} />
 <Link to="/graphic" >
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
- <img className='bg-inherit -mt-32' src={svgimg} />
+ <img className='bg-inherit lg:-mt-32 sm:-mt-16 -mt-14' src={svgimg} />
  <div class="px-6  ">
             <h5 class="text-lg font-bold mb-4">Blockchain</h5>
             <p class="text-gray-500 mb-4">We provide expertise and guidance on the use of blockchain technology, including the development of smart contracts and decentralized applications (dApps).</p>
