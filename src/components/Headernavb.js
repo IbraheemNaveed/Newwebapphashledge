@@ -10,7 +10,7 @@ return (
 
  
  <>
-     <nav  className="w-full  bg-transparent shadow bg-yellow-100">
+     <nav  className="w-full  bg-transparent shadow bg-gradient-to-tr from-yellow-100 to bg-pink-300">
             <div className="justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">

@@ -21,7 +21,7 @@ const Aboutus = () => {
 
 
 <div className='bg-yellow-100  ' >
-<div className='flex flex-col-reverse sm:flex-row m-12 gap-8 bg-yellow-100 '>
+<div className='flex flex-col-reverse sm:flex-row m-12 gap-8  '>
         <div className='sm:text-left text-center flex flex-col gap-3 sm:w-1/2 w-full '>
             <h className='sm:text-3xl md:text-4xl   font-bold  ' >
             What we do 

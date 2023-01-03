@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function footer() {
   return (
     <div>
-        <footer class="text-center lg:text-left bg-black text-white ">
+        <footer class="text-center lg:text-left bg-gradient-to-tr from-yellow-600 to bg-pink-500 text-white ">
   <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div class="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>
@@ -63,7 +63,7 @@ function footer() {
     </div>
   </div>
   <div class="mx-6 py-10 text-center md:text-left">
-    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <div class="">
         {/* <h6 class="
             uppercase
@@ -171,7 +171,7 @@ function footer() {
       </div> */}
     </div>
   </div>
-  <div class="text-center p-6 bg-red-800">
+  <div class="text-center p-6 bg-gradient-to-tr from-yellow-100 to bg-black">
     <span>© 2022 Copyright:</span>
     <a class="text-white font-semibold" href="https://www.linkedin.com/company/hashledge/">Hashledge</a>
   </div>
