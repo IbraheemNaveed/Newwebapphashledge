@@ -23,7 +23,9 @@ function App() {
   return (
   
          <>
-          <BrowserRouter>
+
+         <div className='bg-yellow-100'>
+         <BrowserRouter>
     <Routes>
       <Route path='/'  element= {<HeaderNav/>}>
       <Route index element={<Mainpage1/>}/>
@@ -43,6 +45,7 @@ function App() {
     </Routes>
 
     </BrowserRouter>
+         </div>
          </>
 
       

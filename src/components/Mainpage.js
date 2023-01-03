@@ -5,16 +5,17 @@ import Aboutus from './Aboutus';
 import Blog from './blog';
 import Footer from './footer';
 import Headernavb from './Headernavb';
+import Bgwhiteboard from '../assests/bgpink.png';
 export default function Mainpage() {
   return (
     <div>
       
-      <div className='   bg-no-repeat bg-cover sm:h-[100vh] sm:w-[100wh]  h-full w-full  '  style={{ backgroundImage:`url(${Bg24})` }} >
+      <div className='   bg-no-repeat bg-cover sm:h-[100vh] sm:w-[100wh]  h-full w-full bg-yellow-100  '  style={{ backgroundImage:`url(${Bgwhiteboard})`, }} >
      
    <Header1/>
    </div>
 <Aboutus/>
-<Blog/>
+
 <Footer/>
 
     </div>

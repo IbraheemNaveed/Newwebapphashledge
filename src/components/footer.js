@@ -125,7 +125,7 @@ function footer() {
           <a href="#!" class="text-white hover:text-red-500">Help rjfbr frrnf thg grthyhryhrhyg </a>
         </p>
       </div>
-      <div class="">
+      {/* <div class="">
         <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
           Contact
         </h6>
@@ -168,12 +168,12 @@ function footer() {
           </svg>
           + 01 234 567 89
         </p>
-      </div>
+      </div> */}
     </div>
   </div>
   <div class="text-center p-6 bg-red-800">
     <span>© 2022 Copyright:</span>
-    <a class="text-white font-semibold" href="https://www.linkedin.com/in/ibraheem-naveed-b2b842178//">Hashledge</a>
+    <a class="text-white font-semibold" href="https://www.linkedin.com/company/hashledge/">Hashledge</a>
   </div>
 </footer>
     </div>

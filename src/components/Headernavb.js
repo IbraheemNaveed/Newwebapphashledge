@@ -10,7 +10,7 @@ return (
 
  
  <>
-     <nav  className="w-full  bg-transparent shadow">
+     <nav  className="w-full  bg-transparent shadow bg-yellow-100">
             <div className="justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -69,7 +69,7 @@ return (
                                 <Link to="/about">About Us</Link>
                             </li>
                             <li className="text-black hover:text-blue-600">
-                                <Link to="/blog">Bog</Link>
+                                <Link to="/blog">Blog</Link>
                             </li>
                             <li className="text-black hover:text-blue-600">
                                 <Link to="/contactus">Contact US</Link>

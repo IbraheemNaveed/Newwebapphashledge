@@ -20,8 +20,8 @@ const Aboutus = () => {
 
 
 
-<div className='  ' >
-<div className='flex flex-col-reverse sm:flex-row m-12 gap-8 '>
+<div className='bg-yellow-100  ' >
+<div className='flex flex-col-reverse sm:flex-row m-12 gap-8 bg-yellow-100 '>
         <div className='sm:text-left text-center flex flex-col gap-3 sm:w-1/2 w-full '>
             <h className='sm:text-3xl md:text-4xl   font-bold  ' >
             What we do 
@@ -139,9 +139,9 @@ Why is it so<u class="text-red-600"> great?</u>
 </div>
     </div> */}
     {/* services */}
-    <div className='container my-24 px-6 mx-auto py-6 ' > 
+    <div className='container my-24 px-6 mx-auto py-6 bg-yellow-100 ' > 
     <div className='mb-32 text-gray-800 text-center'>
-    <h2 class="text-3xl  font-bold mb-12">Our  <u class="text-blue-600">services</u></h2>
+    <h2 class="text-3xl  font-bold mb-12">Our services  </h2>
 <div className='grid md:grid-cols-2 gap-x-6 gap-y-12 lg:gap-x-12' >
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
