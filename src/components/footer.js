@@ -4,13 +4,13 @@ import { NavLink } from "react-router-dom";
 function footer() {
   return (
     <div>
-        <footer class="text-center lg:text-left bg-gradient-to-tr from-yellow-600 to bg-pink-500 text-white ">
+        <footer class="text-center lg:text-left bg-gradient-to-tr from-yellow-100 to bg-pink-300 text-black ">
   <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div class="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>
     </div>
     <div class="flex justify-center">
-      <a href="#!" class="mr-6 text-white">
+      <a href="#!" class="mr-6 text-black">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
           class="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 320 512">
@@ -19,7 +19,7 @@ function footer() {
           </path>
         </svg>
       </a>
-      <a href="#!" class="mr-6 text-white">
+      <a href="#!" class="mr-6 text-black">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
           class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
           <path fill="currentColor"
@@ -27,7 +27,7 @@ function footer() {
           </path>
         </svg>
       </a>
-      <a href="#!" class="mr-6 text-white">
+      <a href="#!" class="mr-6 text-black">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google"
           class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
           <path fill="currentColor"
@@ -35,7 +35,7 @@ function footer() {
           </path>
         </svg>
       </a>
-      <a href="#!" class="mr-6 text-white">
+      <a href="#!" class="mr-6 text-black">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
           class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <path fill="currentColor"
@@ -43,7 +43,7 @@ function footer() {
           </path>
         </svg>
       </a>
-      <a href="#!" class="mr-6 text-white">
+      <a href="#!" class="mr-6 text-black">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
           class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512">
@@ -52,7 +52,7 @@ function footer() {
           </path>
         </svg>
       </a>
-      <a href="#!" class="text-white">
+      <a href="#!" class="text-black">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
           class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
           <path fill="currentColor"
@@ -84,7 +84,7 @@ function footer() {
           About
         </h6> */}
         <div className=' border-l-4 border-white flex px-6 mb-3'>
-           <p className='text-white font-semibold hover:text-red-600  '> About</p>
+           <p className='text-black font-semibold hover:text-red-600  '> About</p>
            </div>
         <p>
           Here you can use rows and columns to organize your footer content. Lorem ipsum dolor
@@ -92,37 +92,37 @@ function footer() {
         </p>
       </div>
       <div class="">
-      <div className=' border-l-4 border-white flex px-6 mb-3'>
-           <p className='text-white font-semibold hover:text-red-600  '> Services</p>
+      <div className=' border-l-4 border-black flex px-6 mb-3'>
+           <p className='text-black font-semibold hover:text-red-600  '> Services</p>
            </div>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Web Development</a>
+          <a href="#!" class="text-black hover:text-red-500">Web Development</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Machine learning</a>
+          <a href="#!" class="text-black hover:text-red-500">Machine learning</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Vue</a>
+          <a href="#!" class="text-black hover:text-red-500">Vue</a>
         </p>
         <p>
-          <a href="#!" class="text-white hover:text-red-500">Laravel</a>
+          <a href="#!" class="text-black hover:text-red-500">Laravel</a>
         </p>
       </div>
       <div class="">
       <div className=' border-l-4 border-white flex px-6 mb-3'>
-           <p className='text-white font-semibold hover:text-red-600  '> Blogs</p>
+           <p className='text-black font-semibold hover:text-red-600  '> Blogs</p>
            </div>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Pricing cjc scnvfrvr vervejr tettf</a>
+          <a href="#!" class="text-black hover:text-red-500">Pricing cjc scnvfrvr vervejr tettf</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Settings rbrsj sdc frnfr vrnrn</a>
+          <a href="#!" class="text-black hover:text-red-500">Settings rbrsj sdc frnfr vrnrn</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Orders jebde edjed rbrjnejes jdrrr</a>
+          <a href="#!" class="text-black hover:text-red-500">Orders jebde edjed rbrjnejes jdrrr</a>
         </p>
         <p>
-          <a href="#!" class="text-white hover:text-red-500">Help rjfbr frrnf thg grthyhryhrhyg </a>
+          <a href="#!" class="text-black hover:text-red-500">Help rjfbr frrnf thg grthyhryhrhyg </a>
         </p>
       </div>
       {/* <div class="">
@@ -171,9 +171,9 @@ function footer() {
       </div> */}
     </div>
   </div>
-  <div class="text-center p-6 bg-gradient-to-tr from-yellow-100 to bg-black">
+  <div class="text-center p-6 bg-[#c7c6b8]   ">
     <span>© 2022 Copyright:</span>
-    <a class="text-white font-semibold" href="https://www.linkedin.com/company/hashledge/">Hashledge</a>
+    <a class="text-black font-semibold" href="https://www.linkedin.com/company/hashledge/">Hashledge</a>
   </div>
 </footer>
     </div>
