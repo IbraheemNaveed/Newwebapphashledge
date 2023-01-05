@@ -4,6 +4,8 @@ import Aboutus from "./Aboutus";
 import Aboutus2 from "./Aboutus";
 import { Link } from "react-router-dom";
 import { Outlet } from 'react-router-dom';
+import LogoSvg from '../assests/NewAssets/LOGO_2.svg'
+import Logo from '../assests/NewAssets/Logo.png'
 function Headernavb() {
  const [navbar, setNavbar] = useState(false);
 return (
@@ -13,9 +15,12 @@ return (
      <nav  className="w-full  bg-transparent shadow bg-gradient-to-tr from-yellow-100 to bg-pink-300">
             <div className="justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block">
+                    <div className="flex items-center justify-between py-3 md:py-1 md:block">
                         <Link to="/">
-                            <h2 className="text-2xl font-bold">Hashledge</h2>
+                        <div className='flex'>
+                        <img className='w-auto h-12 md:h-20 fill-red-500 ' src={Logo} />
+                            {/* <h2 className="text-2xl font-bold">Hashledge</h2> */}
+                        </div>
                         </Link>
                         <div className="md:hidden">
                             <button

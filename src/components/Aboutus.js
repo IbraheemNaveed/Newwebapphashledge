@@ -21,7 +21,7 @@ const Aboutus = () => {
 
 
 
-<div className='bg-[#c7c6b8]  ' >
+<div className='bg-[#fcfae5]' >
 <div className='flex flex-col-reverse sm:flex-row m-12 gap-8  '>
         <div className='sm:text-left text-center flex flex-col gap-3 sm:w-1/2 w-full '>
             <h className='sm:text-3xl md:text-4xl   font-bold  ' >
@@ -38,13 +38,13 @@ const Aboutus = () => {
            </div>
         </div>
         <div className='sm:w-1/2 flex justify-center w-full' >
-            <img className='w-96' src={Whatwedo} />
+            <img className='w-96 rounded-2xl ' src={Whatwedo} />
         </div>
     </div>
     <div className='flex flex-col-reverse sm:flex-row m-12 gap-8 '>
         
         <div className='sm:w-1/2 flex justify-center w-full'  >
-            <img className='w-96' src={Gettoknowus} />
+            <img className='w-96 rounded-2xl ' src={Gettoknowus} />
         </div>
         <div className='sm:text-left text-center flex flex-col gap-4 sm:w-1/2 w-full '>
             <h className=' sm:text-3xl md:text-4xl font-bold  ' >
@@ -140,18 +140,23 @@ Why is it so<u class="text-red-600"> great?</u>
 </div>
     </div> */}
     {/* services */}
-    <div className='container my-24 px-6 mx-auto py-6 bg-[#c7c6b8] ' > 
+    <div className='container my-24 px-6 mx-auto py-6 bg-[#fcfae5]  ' > 
     <div className='mb-32 text-gray-800 text-center'>
     <h2 class="text-3xl  font-bold mb-12">Our services  </h2>
 <div className='grid md:grid-cols-2 gap-x-6 gap-y-12 lg:gap-x-12' >
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full h-72 rounded-t-lg' src={Digital} />
+
+ <div className='relative'>
+<img className=' w-full h-72  rounded-t-lg rounded-2xl  ' src={Digital} />
 <Link to="/webdev">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
- <img className='bg-inherit lg:-mt-32 sm:-mt-16 -mt-14 '  src={svgimg} />
+ <div>
+ <img className='bg-inherit  absolute bottom-0  ' src={svgimg} />
+ </div>
+</div>
  <div class="px-6  ">
             <h5 class="text-lg font-bold mb-4">Digital Transformation</h5>
             <p class="text-gray-500 mb-4">We help businesses and organizations modernize and streamline their processes and systems through the use of technology. This may involve implementing new software and platforms, integrating existing systems, or developing custom solutions.</p>
@@ -163,11 +168,16 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full h-72 rounded-t-lg' src={Dataanaly} />
+
+ <div className='relative'>
+<img className=' w-full h-72  rounded-t-lg rounded-2xl  ' src={Dataanaly} />
 <Link to="/blockchain">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
- <img className='bg-inherit lg:-mt-32 sm:-mt-16 -mt-14' src={svgimg} />
+ <div>
+ <img className='bg-inherit  absolute bottom-0  ' src={svgimg} />
+ </div>
+</div>
  <div class="px-6  ">
             <h5 class="text-lg font-bold mb-4">Data Analytics</h5>
             <p class="text-gray-500 mb-4">We use data to help our clients make better informed decisions. This may involve collecting and analyzing data from various sources, developing dashboards and reports, or providing data-driven insights and recommendations.</p>
@@ -179,11 +189,15 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className=' w-full h-72  rounded-t-lg  ' src={Webdesign23} />
+<div className='relative'>
+<img className=' w-full h-72  rounded-t-lg rounded-2xl  ' src={Webdesign23} />
 <Link to="/machine">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
- <img className='bg-inherit lg:-mt-24  md:-mt-20 sm:-mt-16 -mt-14' src={svgimg} />
+ <div>
+ <img className='bg-inherit  absolute bottom-0  ' src={svgimg} />
+ </div>
+</div>
  <div class="px-6  ">
             <h5 class="text-lg font-bold mb-4">Web Design</h5>
             <p class="text-gray-500 mb-4">We design and build websites that are visually appealing, easy to use, and optimized for search engines. We also offer ongoing maintenance and support to ensure that your website stays up to date and running smoothly.</p>
@@ -195,11 +209,16 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-<img className='w-full  sm:h-72 rounded-t-lg' src={Blockcahin} />
-<Link to="/graphic" >
+
+ <div className='relative'>
+<img className=' w-full h-72  rounded-t-lg rounded-2xl  ' src={Blockcahin} />
+<Link to="/graphic">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>
- <img className='bg-inherit lg:-mt-32 sm:-mt-16 -mt-14' src={svgimg} />
+ <div>
+ <img className='bg-inherit  absolute bottom-0  ' src={svgimg} />
+ </div>
+</div>
  <div class="px-6  ">
             <h5 class="text-lg font-bold mb-4">Blockchain</h5>
             <p class="text-gray-500 mb-4">We provide expertise and guidance on the use of blockchain technology, including the development of smart contracts and decentralized applications (dApps).</p>

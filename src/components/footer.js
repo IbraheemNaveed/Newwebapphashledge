@@ -171,7 +171,7 @@ function footer() {
       </div> */}
     </div>
   </div>
-  <div class="text-center p-6 bg-[#c7c6b8]   ">
+  <div class="text-center p-6    ">
     <span>© 2022 Copyright:</span>
     <a class="text-black font-semibold" href="https://www.linkedin.com/company/hashledge/">Hashledge</a>
   </div>
