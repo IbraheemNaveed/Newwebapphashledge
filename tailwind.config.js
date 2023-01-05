@@ -3,7 +3,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      display: [ "Berkshire Swash", "cursive"],
+      display: [ "Rowdies", "cursive"],
     },
     extend: {},
   },
