@@ -9,7 +9,6 @@ import Webdev from './components/services/Webdev';
 import MachineL from './components/services/MachineL';
 import Blockcahim from './components/services/Blockcahim';
 import Blog1 from './components/Blogs/Blog1';
-
 import Error from './components/Error';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import GraphicD from './components/services/GraphicD';
@@ -45,7 +44,6 @@ function App() {
       <Route path='/login' element={<Login/>}/>
       <Route path='/newBlog' element={<PostBlog/>}/>
     </Routes>
-
     </BrowserRouter>
          </div>
          </>
