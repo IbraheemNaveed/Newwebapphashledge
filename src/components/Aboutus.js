@@ -24,7 +24,7 @@ const Aboutus = () => {
 <div className='bg-[#fcfae5]' >
 <div className='flex flex-col-reverse sm:flex-row m-12 gap-8  '>
         <div className='sm:text-left text-center flex flex-col gap-3 sm:w-1/2 w-full '>
-            <h className='sm:text-3xl md:text-4xl   font-bold  ' >
+            <h className='sm:text-3xl md:text-4xl   font-bold text-center  ' >
             What we do 
             </h>
             <p className=' md:text-2xl sm:text-lg font-normal  '>
@@ -46,8 +46,8 @@ const Aboutus = () => {
         <div className='sm:w-1/2 flex justify-center w-full'  >
             <img className='w-96 rounded-2xl ' src={Gettoknowus} />
         </div>
-        <div className='sm:text-left text-center flex flex-col gap-4 sm:w-1/2 w-full '>
-            <h className=' sm:text-3xl md:text-4xl font-bold  ' >
+        <div className='sm:text-left  flex text-center flex-col gap-4 sm:w-1/2 w-full '>
+            <h className=' sm:text-3xl md:text-4xl font-bold text-center ' >
             Get to know us
             </h>
             <p className=' md:text-2xl sm:text-lg font-normal  '>
@@ -140,13 +140,18 @@ Why is it so<u class="text-red-600"> great?</u>
 </div>
     </div> */}
     {/* services */}
-    <div className='container my-24 px-6 mx-auto py-6 bg-[#fcfae5]  ' > 
+    <div className='container my-24 px-6 mx-auto py-6 bg-[to="/graphic"]  ' > 
     <div className='mb-32 text-gray-800 text-center'>
     <h2 class="text-3xl  font-bold mb-12">Our services  </h2>
 <div className='grid md:grid-cols-2 gap-x-6 gap-y-12 lg:gap-x-12' >
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
+
+
+
+
+
 
  <div className='relative'>
 <img className=' w-full h-72  rounded-t-lg rounded-2xl  ' src={Digital} />
@@ -157,6 +162,14 @@ Why is it so<u class="text-red-600"> great?</u>
  <img className='bg-inherit  absolute bottom-0  ' src={svgimg} />
  </div>
 </div>
+
+
+
+
+
+
+
+
  <div class="px-6  ">
             <h5 class="text-lg font-bold mb-4">Digital Transformation</h5>
             <p class="text-gray-500 mb-4">We help businesses and organizations modernize and streamline their processes and systems through the use of technology. This may involve implementing new software and platforms, integrating existing systems, or developing custom solutions.</p>
@@ -211,7 +224,7 @@ Why is it so<u class="text-red-600"> great?</u>
 <div className='relative overflow-hidden bg-no-repeat bg-cover'>
 
  <div className='relative'>
-<img className=' w-full h-72  rounded-t-lg rounded-2xl  ' src={Blockcahin} />
+<img className=' w-full h-72  rounded-t-lg rounded-2xl   ' src={Blockcahin} />
 <Link to="/graphic">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
  </Link>

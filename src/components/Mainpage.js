@@ -2,7 +2,7 @@ import React from 'react'
 import Header1 from './MainHeader';
 import Bg24 from '../assests/bg24.png'
 import Aboutus from './Aboutus';
-import Blog from './blog';
+import Blog from './Blog';
 import Footer from './footer';
 import Headernavb from './Headernavb';
 import Bgwhiteboard from '../assests/bgpink.png';
