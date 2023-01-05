@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import BGhead from './assests/bg.jpg';
 import Aboutus from './components/Aboutus';
-import Blogmain from './components/Blog'
+import Blogmain from './components/BlogMain'
 import Footer from './components/footer';
 import Mainpage1 from './components/Mainpage';
 import Webdev from './components/services/Webdev';
