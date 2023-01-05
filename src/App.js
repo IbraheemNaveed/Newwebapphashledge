@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import BGhead from './assests/bg.jpg';
 import Aboutus from './components/Aboutus';
-import Blog from './components/Blog'
+import Blogmain from './components/Blog'
 import Footer from './components/footer';
 import Mainpage1 from './components/Mainpage';
 import Webdev from './components/services/Webdev';
@@ -30,7 +30,7 @@ function App() {
       <Route index element={<Mainpage1/>}/>
       <Route path='about' element={<Aboutus/>}/>
       <Route path='contactus' element={<Contactus1/>} />
-      <Route path='blog' element={<Blog/>} />
+      <Route path='blog' element={<Blogmain/>} />
       <Route path='footer' element={<Footer/>}  /></Route>
       <Route path='*' element={<Error/>}/>
       <Route path='webdev' element={<Webdev/>} />
