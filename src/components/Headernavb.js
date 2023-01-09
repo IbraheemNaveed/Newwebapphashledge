@@ -13,7 +13,7 @@ return (
 
  
  <>
-     <nav  className="w-full  bg-transparent shadow bg-gradient-to-tr  from-yellow-100 to bg-[#008FB8]">
+     <nav  className="w-full  bg-transparent shadow  bg-[#ffffff]">
             <div className="justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-1 md:block">
@@ -77,7 +77,7 @@ return (
                             <li className="text-black hover:text-blue-600">
                                 <Link to="/blog">Blog</Link>
                             </li>
-                            <li className="text-black hover:text-blue-600">
+                            <li className="text-black hover:text-blue-600 rounded-lg bg-yellow-300 ">
                                 <Link to="/contactus">Contact US</Link>
                             </li>
                         </ul>

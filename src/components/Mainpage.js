@@ -12,7 +12,7 @@ export default function Mainpage() {
   return (
     <div>
       
-      <div className='   bg-no-repeat bg-cover sm:h-[100vh] sm:w-[100wh]  h-full w-full bg-gradient-to-tr from-[#008FB8] to-[#75808d]  '  style={{ backgroundImage:`url(${Bgsvg})`, }} >
+      <div className='   bg-no-repeat bg-cover sm:h-[100vh] sm:w-[100wh]  h-full w-full bg-[#ffffff]  '  style={{ backgroundImage:`url(${Bgsvg})`, }} >
      
    <Header1/>
    </div>
