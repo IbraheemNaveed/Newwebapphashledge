@@ -5,13 +5,13 @@ import Bgtri from "../assests/bg-tri.svg";
 function footer() {
   return (
     <div>
-        <footer  class="  text-center lg:text-left bg-gradient-to-br  from-yellow-100 to bg-[#008FB8] text-black ">
+        <footer   class=" bg-no-repeat bg-cover  text-center lg:text-left  to bg-[#072644] text-white ">
   <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div class="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>
     </div>
     <div class="flex justify-center">
-      <a href="#!" class="mr-6 text-black">
+      <a href="#!" class="mr-6 text-white">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
           class="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 320 512">
@@ -20,7 +20,7 @@ function footer() {
           </path>
         </svg>
       </a>
-      <a href="#!" class="mr-6 text-black">
+      <a href="#!" class="mr-6 text-white">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
           class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
           <path fill="currentColor"
@@ -28,7 +28,7 @@ function footer() {
           </path>
         </svg>
       </a>
-      <a href="#!" class="mr-6 text-black">
+      <a href="#!" class="mr-6 text-white">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google"
           class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
           <path fill="currentColor"
@@ -36,7 +36,7 @@ function footer() {
           </path>
         </svg>
       </a>
-      <a href="#!" class="mr-6 text-black">
+      <a href="#!" class="mr-6 text-white">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
           class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <path fill="currentColor"
@@ -44,7 +44,7 @@ function footer() {
           </path>
         </svg>
       </a>
-      <a href="#!" class="mr-6 text-black">
+      <a href="#!" class="mr-6 text-white">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
           class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512">
@@ -53,7 +53,7 @@ function footer() {
           </path>
         </svg>
       </a>
-      <a href="#!" class="text-black">
+      <a href="#!" class="text-white">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
           class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
           <path fill="currentColor"
@@ -64,7 +64,7 @@ function footer() {
     </div>
   </div>
   <div class="mx-6 py-10 text-center md:text-left">
-    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       <div class=""  >
         {/* <h6 class="
             uppercase
@@ -85,48 +85,49 @@ function footer() {
           About
         </h6> */}
         <div className=' border-l-4 border-white flex px-6 mb-3'>
-           <p className='text-black font-semibold hover:text-red-600  '> About</p>
+           <p className='text-white font-semibold hover:text-red-600  '> About</p>
            </div>
         <p>
-          Here you can use rows and columns to organize your footer content. Lorem ipsum dolor
-          sit amet, consectetur adipisicing elit.
-        </p>
-      </div>
-      <div class="">
-      <div className=' border-l-4 border-black flex px-6 mb-3'>
-           <p className='text-black font-semibold hover:text-red-600  '> Services</p>
-           </div>
-        <p class="mb-4">
-          <a href="#!" class="text-black hover:text-red-500">Web Development</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-black hover:text-red-500">Machine learning</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-black hover:text-red-500">Vue</a>
-        </p>
-        <p>
-          <a href="#!" class="text-black hover:text-red-500">Laravel</a>
+        Hash Ledge is a different type of consultancy. With deep experience across technology transformation, business analysis, web design, implementation, data migration and support, we are ideally placed to help customers solve the whole problem.
         </p>
       </div>
       <div class="">
       <div className=' border-l-4 border-white flex px-6 mb-3'>
-           <p className='text-black font-semibold hover:text-red-600  '> Blogs</p>
+           <p className='text-white font-semibold hover:text-red-600  '> Services</p>
            </div>
         <p class="mb-4">
-          <a href="#!" class="text-black hover:text-red-500">Pricing cjc scnvfrvr vervejr tettf</a>
+          <a href="#!" class="text-white hover:text-red-500">Web Development</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-black hover:text-red-500">Settings rbrsj sdc frnfr vrnrn</a>
+          <a href="#!" class="text-white hover:text-red-500">Machine learning</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-black hover:text-red-500">Orders jebde edjed rbrjnejes jdrrr</a>
+          <a href="#!" class="text-white hover:text-red-500">Block Cahin</a>
         </p>
         <p>
-          <a href="#!" class="text-black hover:text-red-500">Help rjfbr frrnf thg grthyhryhrhyg </a>
+          <a href="#!" class="text-white hover:text-red-500">Digital Transformation</a>
         </p>
       </div>
-      
+      <div class="">
+      <div className=' border-l-4 border-white flex px-6 mb-3'>
+           <p className='text-white font-semibold hover:text-red-600  '> Blogs</p>
+           </div>
+        <p class="mb-4">
+          <a href="#!" class="text-white hover:text-red-500">Web Development</a>
+        </p>
+        <p class="mb-4">
+          <a href="#!" class="text-white hover:text-red-500">Machine learning</a>
+        </p>
+        <p class="mb-4">
+          <a href="#!" class="text-white hover:text-red-500">Block Cahin</a>
+        </p>
+        <p>
+          <a href="#!" class="text-white hover:text-red-500">Digital Transformation</a>
+        </p>
+      </div>
+      <div  className="  " >
+        <img src={Bgtri} />
+      </div>
       {/* <div class="">
         <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
           Contact
@@ -175,7 +176,7 @@ function footer() {
   </div>
   <div class="text-center p-6    ">
     <span>© 2022 Copyright:</span>
-    <a class="text-black font-semibold" href="https://www.linkedin.com/company/hashledge/">Hashledge</a>
+    <a class="text-white font-semibold" href="https://www.linkedin.com/company/hashledge/">Hashledge</a>
   </div>
 </footer>
     </div>
