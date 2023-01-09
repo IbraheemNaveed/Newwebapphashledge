@@ -61,7 +61,7 @@ const MainHeader = () => {
         
     </a> */}
     {/* <div className=' border-l-4 border-red-600 flex  px-6 mb-3'>
-           <p className='text-red-600 font-semibold hover:text-black  '> See how can we help you</p>
+           <p className='text-red-600 font-semibold hover:text-[#072644]  '> See how can we help you</p>
           <div className="mt-2" >
           <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="#FF0000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
           
@@ -113,7 +113,7 @@ const MainHeader = () => {
       </a>
     </div>
     <div className=' border-l-4 border-red-600 flex px-6 mb-3'>
-           <p className='text-red-600 font-semibold hover:text-black  '> Request a call back</p>
+           <p className='text-red-600 font-semibold hover:text-[#072644]  '> Request a call back</p>
            </div>
   
 

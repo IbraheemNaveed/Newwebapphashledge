@@ -5,7 +5,7 @@ import Bgtri from "../assests/bg-tri.svg";
 function footer() {
   return (
     <div>
-        <footer   class=" bg-no-repeat bg-cover  text-center lg:text-left  to bg-[#072644] text-white ">
+        <footer   class=" w-screen bg-no-repeat bg-cover  text-center lg:text-left  to bg-[#072644] text-white ">
   <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div class="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>
@@ -125,8 +125,8 @@ function footer() {
           <a href="#!" class="text-white hover:text-red-500">Digital Transformation</a>
         </p>
       </div>
-      <div  className="  " >
-        <img src={Bgtri} />
+      <div  className=" m-3 " >
+        <img className=" animate-spin " src={Bgtri} />
       </div>
       {/* <div class="">
         <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">

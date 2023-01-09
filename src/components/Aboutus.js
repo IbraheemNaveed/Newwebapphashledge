@@ -19,18 +19,22 @@ const Aboutus = () => {
 <>
 
 
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com"/>
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+   <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet"/>
+</head>
 
-
-<div className='bg-transparent container mx-auto ' >
+<div className='bg-transparent container mx-auto font-display ' >
 <div className='flex flex-col-reverse sm:flex-row m-12 gap-8  '>
         <div className='sm:text-left text-center flex flex-col gap-3 sm:w-1/2 w-full '>
-            <h className='sm:text-3xl md:text-4xl   font-bold text-center  ' >
-            What we do 
+            <h className='sm:text-3xl md:text-4xl   font-bold text-center  text-[#0e5ba6] ' >
+            What We Do 
             </h>
-            <p className=' md:text-2xl sm:text-lg font-normal  '>
+            <p className=' md:text-2xl sm:text-lg text-[#072644]  '>
             As an IT consultancy, we specialize in helping businesses and organizations resolve problems through digital transformation, data analysis, web design and development, and blockchain.
             </p>
-            <p className='md:text-2xl sm:text-lg font-normal'>
+            <p className='md:text-2xl sm:text-lg text-[#072644]'>
             Our team of experienced professionals has a strong track record of delivering successful projects for our clients. We work with you to understand your specific needs and challenges, and then develop customized solutions that address those issues and help drive your business forward.
             </p>
             <div className=' border-l-4 border-red-600 flex px-6'>
@@ -47,13 +51,13 @@ const Aboutus = () => {
             <img className='w-96 rounded-2xl ' src={Gettoknowus} />
         </div>
         <div className='sm:text-left  flex text-center flex-col gap-4 sm:w-1/2 w-full '>
-            <h className=' sm:text-3xl md:text-4xl font-bold text-center ' >
+            <h className=' sm:text-3xl md:text-4xl font-bold text-center text-[#0e5ba6] ' >
             Get to know us
             </h>
-            <p className=' md:text-2xl sm:text-lg font-normal  '>
+            <p className=' md:text-2xl sm:text-lg  text-[#072644] '>
             Tratech Consulting was born to be different. We are consultants, but not as you know them. 
             </p>
-            <p className='md:text-2xl sm:text-lg font-normal'>
+            <p className='md:text-2xl sm:text-lg  text-[#072644]'>
             We dive right in with our clients and help them across all areas of technology transformation, design.
             </p>
            <div className=' border-l-4 border-red-600 flex px-6'>
@@ -140,7 +144,7 @@ Why is it so<u class="text-red-600"> great?</u>
 </div>
     </div> */}
     {/* services */}
-    <div className='container my-24 px-6 mx-auto py-6 bg-transparent bg-[to="/graphic"]  ' > 
+    <div className='container my-24 px-6 mx-auto py-6 font-display bg-transparent bg-[to="/graphic"]  ' > 
     <div className='mb-32 text-gray-800 text-center w-full '>
     <h2 class="text-3xl  font-bold mb-12">Our services  </h2>
 <div className='grid md:grid-cols-2 gap-x-6 gap-y-12 lg:gap-x-12' >
@@ -171,8 +175,8 @@ Why is it so<u class="text-red-600"> great?</u>
 
 
  <div class="px-6  ">
-            <h5 class="text-lg font-bold mb-4">Digital Transformation</h5>
-            <p class="text-black mb-4">We help businesses and organizations modernize and streamline their processes and systems through the use of technology. This may involve implementing new software and platforms, integrating existing systems, or developing custom solutions.</p>
+            <h5 class="text-lg text-[#0e5ba6] font-bold mb-4">Digital Transformation</h5>
+            <p class=" mb-4 text-[#072644]">We help businesses and organizations modernize and streamline their processes and systems through the use of technology. This may involve implementing new software and platforms, integrating existing systems, or developing custom solutions.</p>
             </div>
 </div>
 </div>
@@ -192,8 +196,8 @@ Why is it so<u class="text-red-600"> great?</u>
  </div>
 </div>
  <div class="px-6  ">
-            <h5 class="text-lg font-bold mb-4">Data Analytics</h5>
-            <p class="text-black mb-4">We use data to help our clients make better informed decisions. This may involve collecting and analyzing data from various sources, developing dashboards and reports, or providing data-driven insights and recommendations.</p>
+            <h5 class="text-lg text-[#0e5ba6] font-bold mb-4">Data Analytics</h5>
+            <p class=" text-[#072644]  mb-4">We use data to help our clients make better informed decisions. This may involve collecting and analyzing data from various sources, developing dashboards and reports, or providing data-driven insights and recommendations.</p>
             </div>
 </div>
 </div>
@@ -212,8 +216,8 @@ Why is it so<u class="text-red-600"> great?</u>
  </div>
 </div>
  <div class="px-6  ">
-            <h5 class="text-lg font-bold mb-4">Web Design</h5>
-            <p class="text-black mb-4">We design and build websites that are visually appealing, easy to use, and optimized for search engines. We also offer ongoing maintenance and support to ensure that your website stays up to date and running smoothly.</p>
+            <h5 class="text-lg text-[#0e5ba6] font-bold mb-4">Web Design</h5>
+            <p class="text-[#072644] mb-4">We design and build websites that are visually appealing, easy to use, and optimized for search engines. We also offer ongoing maintenance and support to ensure that your website stays up to date and running smoothly.</p>
             </div>
 </div>
 </div>
@@ -233,8 +237,8 @@ Why is it so<u class="text-red-600"> great?</u>
  </div>
 </div>
  <div class="px-6  ">
-            <h5 class="text-lg font-bold mb-4">Blockchain</h5>
-            <p class="text-black mb-4">We provide expertise and guidance on the use of blockchain technology, including the development of smart contracts and decentralized applications (dApps).</p>
+            <h5 class="text-lg  text-[#0e5ba6] font-bold mb-4">Blockchain</h5>
+            <p class="text-[#072644] mb-4">We provide expertise and guidance on the use of blockchain technology, including the development of smart contracts and decentralized applications (dApps).</p>
             </div>
 </div>
 </div>

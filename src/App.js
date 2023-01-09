@@ -17,6 +17,7 @@ import Contactus1 from './components/Contactus';
 import { Children } from 'react';
 import Login from './components/Login';
 import PostBlog from './components/PostBlog';
+import Transfermation from './components/Transfermation';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       <Route path='blog4' element={<Blog4/>}/> */}
       <Route path='/login' element={<Login/>}/>
       <Route path='/newBlog' element={<PostBlog/>}/>
+      <Route path='/transfermation' element={<Transfermation/>}  />
     </Routes>
     </BrowserRouter>
          </div>

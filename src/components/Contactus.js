@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contactus() {
   return (
-    <div className='bg-black p-10 sm:h-[100vh] sm:w-[100wh]  h-full w-full '>
+    <div className='bg-[#072644] p-10 sm:h-[100vh] sm:w-[100wh]  h-full w-full '>
 
 
 <form>
