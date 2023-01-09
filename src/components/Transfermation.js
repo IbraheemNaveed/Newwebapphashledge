@@ -20,9 +20,9 @@ function Transfermation() {
       </div>
          
           <div className=' flex flex-col gap-8  '>
-          <div className='flex flex-col gap-6'>
+          <div className='flex flex-col gap-6 '>
     <div>
-        <img className='animate-spin' src={img1} />
+        <img className='animate-spin w-20 sm:w-44 ' src={img1} />
     </div>
     <div >
         <h className=" font-bold text-[#072644] text-xl font-display " >
@@ -35,7 +35,7 @@ function Transfermation() {
           </div>
           <div className='flex flex-col gap-6'>
     <div>
-        <img className='animate-spin' src={img2} />
+        <img className='animate-spin w-20  sm:w-44' src={img2} />
     </div>
     <div>
         <h className="font-bold text-[#072644] text-xl font-display" >
@@ -48,7 +48,7 @@ function Transfermation() {
           </div>
           <div className='flex flex-col gap-6'>
     <div>
-        <img className='animate-spin' src={img3} />
+        <img className='animate-spin w-20 sm:w-44  ' src={img3} />
     </div>
     <div>
         <h className="font-bold text-[#072644] text-xl font-display">
