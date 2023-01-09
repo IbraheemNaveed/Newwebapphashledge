@@ -5,20 +5,21 @@ import Aboutus2 from "./Aboutus";
 import { Link } from "react-router-dom";
 import { Outlet } from 'react-router-dom';
 import LogoSvg from '../assests/NewAssets/LOGO_2.svg'
-import Logo from '../assests/NewAssets/Logo.png'
+import Logo from '../assests/logo.svg'
+
 function Headernavb() {
  const [navbar, setNavbar] = useState(false);
 return (
 
  
  <>
-     <nav  className="w-full  bg-transparent shadow bg-gradient-to-tr  from-yellow-100 to bg-pink-300">
+     <nav  className="w-full  bg-transparent shadow bg-gradient-to-tr  from-yellow-100 to bg-[#008FB8]">
             <div className="justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-1 md:block">
                         <Link to="/">
                         <div className='flex'>
-                        <img className='w-auto h-12 md:h-20 fill-red-500 ' src={Logo} />
+                        <img className='w-auto h-12 md:h-20   ' src={Logo} />
                             {/* <h2 className="text-2xl font-bold">Hashledge</h2> */}
                         </div>
                         </Link>

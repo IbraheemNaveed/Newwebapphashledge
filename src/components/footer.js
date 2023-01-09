@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function footer() {
   return (
     <div>
-        <footer class="text-center lg:text-left bg-gradient-to-tr from-yellow-100 to bg-pink-300 text-black ">
+        <footer class="text-center lg:text-left bg-gradient-to-br  from-yellow-100 to bg-[#008FB8] text-black ">
   <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div class="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>
