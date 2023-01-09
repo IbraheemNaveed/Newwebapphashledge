@@ -8,15 +8,19 @@ import Headernavb from './Headernavb';
 import Bgwhiteboard from '../assests/bgpink.png';
 import Bgscreen from '../assests/bg26.png'
 import Bgsvg from '../assests/NewAssets/Bgsvg.svg'
+import Bgtri from "../assests/bg-tri.svg";
 export default function Mainpage() {
   return (
     <div>
       
-      <div className='   bg-no-repeat bg-cover sm:h-[100vh] sm:w-[100wh]  h-full w-full bg-[#ffffff]  '  style={{ backgroundImage:`url(${Bgsvg})`, }} >
+      <div className='   bg-no-repeat bg-cover sm:h-[100vh] sm:w-[100wh]  h-full w-full bg-transparent  '  style={{ backgroundImage:`url(${Bgsvg})`, }} >
      
    <Header1/>
    </div>
-<Aboutus/>
+   <div className=' bg-no-repeat bg-cover ' style={{ backgroundImage:`url(${Bgtri})` }} >
+   <Aboutus/>
+   </div>
+
 
 <Footer/>
 

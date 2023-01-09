@@ -25,7 +25,7 @@ return (
                         </Link>
                         <div className="md:hidden">
                             <button
-                                className="p-2 text-black rounded-md outline-none focus:border-gray-400 focus:border"
+                                className="p-2  rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
@@ -68,16 +68,16 @@ return (
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-black hover:text-blue-600">
+                            <li className="text-[#0e5ba6] font-semibold hover:text-blue-600">
                                 <Link to="/">Home</Link>
                             </li>
-                            <li className="text-black hover:text-blue-600">
+                            <li className="text-[#0e5ba6] font-semibold hover:text-blue-600">
                                 <Link to="/about">About Us</Link>
                             </li>
-                            <li className="text-black hover:text-blue-600">
+                            <li className="text-[#0e5ba6] font-semibold hover:text-blue-600">
                                 <Link to="/blog">Blog</Link>
                             </li>
-                            <li className="text-black hover:text-blue-600 rounded-lg bg-yellow-300 ">
+                            <li className="text-white font-semibold hover:text-blue-600 rounded-lg bg-[#0e5ba6] px-2 ">
                                 <Link to="/contactus">Contact US</Link>
                             </li>
                         </ul>

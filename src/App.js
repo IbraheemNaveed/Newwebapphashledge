@@ -23,7 +23,7 @@ function App() {
   
          <>
 
-         <div className='bg-[#fcfae5]'>
+         <div className='bg-[#ffffff]'>
          <BrowserRouter>
     <Routes>
       <Route path='/'  element= {<HeaderNav/>}>

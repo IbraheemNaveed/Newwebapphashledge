@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Bgtri from "../assests/bg-tri.svg";
 
 function footer() {
   return (
     <div>
-        <footer class="text-center lg:text-left bg-gradient-to-br  from-yellow-100 to bg-[#008FB8] text-black ">
+        <footer  class="  text-center lg:text-left bg-gradient-to-br  from-yellow-100 to bg-[#008FB8] text-black ">
   <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div class="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>
@@ -64,7 +65,7 @@ function footer() {
   </div>
   <div class="mx-6 py-10 text-center md:text-left">
     <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="">
+      <div class=""  >
         {/* <h6 class="
             uppercase
             font-semibold
@@ -125,6 +126,7 @@ function footer() {
           <a href="#!" class="text-black hover:text-red-500">Help rjfbr frrnf thg grthyhryhrhyg </a>
         </p>
       </div>
+      
       {/* <div class="">
         <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
           Contact
