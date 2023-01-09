@@ -102,7 +102,7 @@ function footer() {
           <a href="#!" class="text-white hover:text-red-500">Machine learning</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Block Cahin</a>
+          <a href="#!" class="text-white hover:text-red-500">Block Chain</a>
         </p>
         <p>
           <a href="#!" class="text-white hover:text-red-500">Digital Transformation</a>
