@@ -37,9 +37,9 @@ const Aboutus = () => {
             <p className='md:text-2xl sm:text-lg text-[#072644]'>
             Our team of experienced professionals has a strong track record of delivering successful projects for our clients. We work with you to understand your specific needs and challenges, and then develop customized solutions that address those issues and help drive your business forward.
             </p>
-            <div className=' border-l-4 border-red-600 flex px-6'>
+            {/* <div className=' border-l-4 border-red-600 flex px-6'>
            <p className='text-red-600 font-semibold hover:text-yellow-300  '>Every.single.Time</p>
-           </div>
+           </div> */}
         </div>
         <div className='sm:w-1/2 flex justify-center w-full' >
             <img className='w-96 rounded-2xl ' src={Whatwedo} />
@@ -55,14 +55,14 @@ const Aboutus = () => {
             Get to know us
             </h>
             <p className=' md:text-2xl sm:text-lg  text-[#072644] '>
-            Tratech Consulting was born to be different. We are consultants, but not as you know them. 
+            Hash Ledge was born to be different. We are consultants, but not as you know them. 
             </p>
             <p className='md:text-2xl sm:text-lg  text-[#072644]'>
             We dive right in with our clients and help them across all areas of technology transformation, design.
             </p>
-           <div className=' border-l-4 border-red-600 flex px-6'>
+           {/* <div className=' border-l-4 border-red-600 flex px-6'>
            <p className='text-red-600 font-semibold hover:text-yellow-300  '>Find out more</p>
-           </div>
+           </div> */}
         </div>
     </div>
 </div>

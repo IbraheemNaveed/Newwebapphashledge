@@ -13,11 +13,11 @@ import Error from './components/Error';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import GraphicD from './components/services/GraphicD';
 import HeaderNav from './components/Headernavb';
-import Contactus1 from './components/Contactus';
 import { Children } from 'react';
 import Login from './components/Login';
 import PostBlog from './components/PostBlog';
 import Transfermation from './components/Transfermation';
+import { Contactus } from './components/Contactus';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
       <Route path='/'  element= {<HeaderNav/>}>
       <Route index element={<Mainpage1/>}/>
       <Route path='about' element={<Aboutus/>}/>
-      <Route path='contactus' element={<Contactus1/>} />
+      <Route path='contactus' element={<Contactus/>} />
       <Route path='blog' element={<Blogmain/>} />
       <Route path='footer' element={<Footer/>}  /></Route>
       <Route path='*' element={<Error/>}/>
