@@ -15,8 +15,8 @@ useEffect(()=>{
 },[isLogin])
 return (
 <>
-<div className="container my-24 px-6 ms-auto">
-  <button onClick={CheckAndPost}>Post Blog</button>
+<div className="container my-24 px-6 ">
+  <button className="text-white border-2 bg-[#0e5ba6]" onClick={CheckAndPost}>Post Blog</button>
 </div>
 <div className='container my-24 px-6 mx-auto'>
 <div className='mb-32 text-gray-800 text-center'>

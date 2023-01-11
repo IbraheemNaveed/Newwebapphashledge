@@ -18,6 +18,7 @@ import Login from './components/Login';
 import PostBlog from './components/PostBlog';
 import Transfermation from './components/Transfermation';
 import { Contactus } from './components/Contactus';
+import Submit from './components/Submit';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
       <Route path='blog4' element={<Blog4/>}/> */}
       <Route path='/login' element={<Login/>}/>
       <Route path='/newBlog' element={<PostBlog/>}/>
+      <Route path='/Submit' element={<Submit/>}  />
       <Route path='/transfermation' element={<Transfermation/>}  />
     </Routes>
     </BrowserRouter>

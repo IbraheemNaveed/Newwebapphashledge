@@ -65,7 +65,7 @@ const Login = () => {
         </div>
   
         </div>
-        <div className="     w-40  h-36 bg-gradient-to-r from-[#4ADE80]/50 to-[#6EE7B7]  blur-[100px] absolute ">
+        <div className=" w-40  h-36 bg-gradient-to-r from-[#4ADE80]/50 to-[#6EE7B7]  blur-[100px] absolute ">
                 {" "}
               </div>
         </div>

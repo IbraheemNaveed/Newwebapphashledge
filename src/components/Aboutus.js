@@ -41,7 +41,7 @@ const Aboutus = () => {
            <p className='text-red-600 font-semibold hover:text-yellow-300  '>Every.single.Time</p>
            </div> */}
         </div>
-        <div className='sm:w-1/2 flex justify-center w-full' >
+        <div className='sm:w-1/2 flex justify-center w-full'>  
             <img className='w-96 rounded-2xl ' src={Whatwedo} />
         </div>
     </div>
