@@ -10,6 +10,8 @@ import Bgscreen from '../assests/bg26.png'
 import Bgsvg from '../assests/NewAssets/Bgsvg.svg'
 import Bgtri from "../assests/bg-tri.svg";
 import Transfermation from './Transfermation';
+import Whatwedo from './Whatwedo';
+
 export default function Mainpage() {
   return (
     <div>
@@ -21,6 +23,7 @@ export default function Mainpage() {
    <div className=' bg-no-repeat bg-cover ' style={{ backgroundImage:`url(${Bgtri})` }} >
    <Aboutus/>
    </div>
+   {/* <Whatwedo/> */}
 <Transfermation/>
 
 <Footer/>
