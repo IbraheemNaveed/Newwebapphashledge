@@ -3,7 +3,7 @@ import App from './App'
 import { Provider } from 'react';
 import { BlogStore } from './BlogStore';
 const Main = () => {
-const test = 'danish';
+const test = '';
 const [blogsData,setblogsData]= useState(
   [
   {blogDetail:'Ut pretium ultricies dignissim. Sed sit amet mi eget urnaplacerat vulputate. Ut vulputate est non quam dignissim elementum. Donec a ullamcorper diam'},

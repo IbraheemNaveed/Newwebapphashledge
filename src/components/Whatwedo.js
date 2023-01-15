@@ -13,8 +13,8 @@ function Whatwedo() {
 
       <h className="  font-bold text-5xl text-white  " > Our services power your digital capability </h>
 
-      <div className='grid grid-cols-2'>
-        <div className='col-6' >
+      <div className='grid grid-cols-1 sm:grid-cols-2'>
+        <div className='' >
           {/* part 1 */}
 
           <div onClick={() => setVisible("Digital Transfromation")}>
