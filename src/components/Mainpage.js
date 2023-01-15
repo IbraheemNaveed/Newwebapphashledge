@@ -23,7 +23,7 @@ export default function Mainpage() {
    <div className=' bg-no-repeat bg-cover ' style={{ backgroundImage:`url(${Bgtri})` }} >
    <Aboutus/>
    </div>
-   {/* <Whatwedo/> */}
+   <Whatwedo/>
 <Transfermation/>
 
 <Footer/>

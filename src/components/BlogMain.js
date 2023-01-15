@@ -1,18 +1,19 @@
-import React, { useState,useEffect } from "react";
+import React, { useState,useEffect,useContext } from "react";
+import { BlogStore } from "../BlogStore";
 import {Link,useNavigate} from 'react-router-dom'
 import Bgg from '../assests/bg.jpg'
 const BlogMain = () => {
   const [isLogin,setisLogin]= useState(false);
   const navigate = useNavigate();
+  const {blogsData} = useContext(BlogStore); 
   const CheckAndPost =()=>{
-   alert('Called.....');
    setisLogin(!isLogin);      
 }
 useEffect(()=>{
   if(isLogin){
     navigate('/login')
   }
-},[isLogin])
+},[isLogin,blogsData])
 return (
 <>
 <div className="container my-24 px-6 ">
@@ -22,7 +23,7 @@ return (
 <div className='mb-32 text-gray-800 text-center'>
 <h2 class="text-3xl font-bold mb-12 text-center">Latest articles</h2>
 <div className='grid lg:grid-cols-3 gap-6 xl:gap-x-12'>
-{[0,1,2,3].map((item,index)=>{return(
+{blogsData.map((item,index)=>{return(
   <Link to="/home/blog/1">
 <div className='mb-6 lg:mb-0'> 
 <img src={Bgg} />
@@ -35,15 +36,13 @@ return (
               <a href="" class="text-gray-900">Anna Maria Doe</a></small>
           </p>
           <p class="text-gray-500">
-            Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-            placerat vulputate. Ut vulputate est non quam dignissim
-            elementum. Donec a ullamcorper diam.
+           {item?.blogDetail}
           </p>
 </div>
 </Link>
 )})} 
 </div>
-
+{blogsData.length}
 </div>
 
 </div>
