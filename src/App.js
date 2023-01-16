@@ -25,7 +25,7 @@ function App() {
   
          <>
 
-         <div className='bg-[#ffffff] w-screen'>
+         <div className='bg-[#ffffff] '>
          <BrowserRouter>
     <Routes>
       <Route path='/'  element= {<HeaderNav/>}>

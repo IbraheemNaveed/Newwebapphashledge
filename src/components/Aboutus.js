@@ -146,7 +146,7 @@ Why is it so<u class="text-red-600"> great?</u>
     {/* services */}
     <div className='container my-24 px-6 mx-auto py-6  bg-transparent bg-[to="/graphic"]  ' > 
     <div className='mb-32 text-gray-800 text-center w-full '>
-    <h2 class="text-3xl  font-bold mb-12 font-display">Our services  </h2>
+    <h2 class="text-3xl  font-bold mb-12 font-display text-[#072644]">Our services  </h2>
 <div className='grid md:grid-cols-2 gap-x-6 gap-y-12 lg:gap-x-12' >
 <div className='mb-6 lg:mb-0'>
 <div className='block rounded-lg shadow-lg'>

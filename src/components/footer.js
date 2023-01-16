@@ -5,7 +5,7 @@ import Bgtri from "../assests/bg-tri.svg";
 function footer() {
   return (
     <div>
-        <footer   class=" w-screen bg-no-repeat bg-cover  text-center lg:text-left  to bg-[#072644] text-white ">
+        <footer   class="  bg-no-repeat bg-cover  text-center lg:text-left  to bg-[#072644] text-white ">
   <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div class="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>
@@ -64,7 +64,7 @@ function footer() {
     </div>
   </div>
   <div class="mx-6 py-10 text-center md:text-left">
-    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8  ">
       <div class=""  >
         {/* <h6 class="
             uppercase
@@ -85,7 +85,7 @@ function footer() {
           About
         </h6> */}
         <div className=' border-l-4 border-white flex px-6 mb-3'>
-           <p className='text-white font-semibold hover:text-red-600  '> About</p>
+           <p className='text-white font-semibold hover:text-[#60a1e2]  '> About</p>
            </div>
         <p>
         Hash Ledge is a different type of consultancy. With deep experience across technology transformation, business analysis, web design, implementation, data migration and support, we are ideally placed to help customers solve the whole problem.
@@ -93,39 +93,39 @@ function footer() {
       </div>
       <div class="">
       <div className=' border-l-4 border-white flex px-6 mb-3'>
-           <p className='text-white font-semibold hover:text-red-600  '> Services</p>
+           <p className='text-white font-semibold hover:text-[#60a1e2]  '> Services</p>
            </div>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Web Development</a>
+          <a href="#!" class="text-white hover:text-[#60a1e2]">Web Development</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Machine learning</a>
+          <a href="#!" class="text-white hover:text-[#60a1e2]">Machine learning</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Block Chain</a>
+          <a href="#!" class="text-white hover:text-[#60a1e2]">Block Chain</a>
         </p>
         <p>
-          <a href="#!" class="text-white hover:text-red-500">Digital Transformation</a>
+          <a href="#!" class="text-white hover:text-[#60a1e2]">Digital Transformation</a>
         </p>
       </div>
       <div class="">
       <div className=' border-l-4 border-white flex px-6 mb-3'>
-           <p className='text-white font-semibold hover:text-red-600  '> Blogs</p>
+           <p className='text-white font-semibold hover:text-[#60a1e2]  '> Blogs</p>
            </div>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Web Development</a>
+          <a href="#!" class="text-white hover:text-[#60a1e2]">Web Development</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Machine learning</a>
+          <a href="#!" class="text-white hover:text-[#60a1e2]">Machine learning</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white hover:text-red-500">Block Cahin</a>
+          <a href="#!" class="text-white hover:text-[#60a1e2]">Block Cahin</a>
         </p>
         <p>
-          <a href="#!" class="text-white hover:text-red-500">Digital Transformation</a>
+          <a href="#!" class="text-white hover:text-[#60a1e2]">Digital Transformation</a>
         </p>
       </div>
-      <div  className=" m-3 " >
+      <div  className=" overflow-hidden p-2  " >
         <img className=" animate-spin " src={Bgtri} />
       </div>
       {/* <div class="">

@@ -5,14 +5,13 @@ import img3 from '../assests/evolve-bold.svg'
 import './comp.css'
 function Transfermation() {
   return (
-    
     <>
     <head>
    <link rel="preconnect" href="https://fonts.googleapis.com"/>
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet"/>
 </head>
-        <div className=' grid grid-cols-2 gap-8 relative   '>
+        <div className=' grid grid-cols-2 gap-8 relative  my-2 sm:my-6  '>
       
       
       <div className='m-3'>
