@@ -1,12 +1,32 @@
-import React,{useState,useContext} from 'react'
+import React,{useState,useContext,useEffect} from 'react'
+import { useNavigate } from 'react-router-dom';
 import { BlogStore } from '../BlogStore';
 const PostBlog = () => {
-const {blogsData,dispatcchUserEvents} = useContext(BlogStore);
+const {blogsData,dispatcchUserEvents,addBlog} = useContext(BlogStore);
 const [newPost,setnewPost] = useState('');
+const navigate = useNavigate();
 const getPost = ()=>{
     dispatcchUserEvents("Add-Blog",{data:{blogDetail:newPost}})
+    // setTimeout(()=>{
+    // if(addBlog==="added")
+    // {
+       
+    //     console.log('Latest blog array after added new blog',blogsData);
+    // }
+    // else{
+    //     console.log('Blogs are not working....');
+    // }    
+    // //    
+    // },2500)
 //    blogsData.push(newPost);
 }
+useEffect(()=>{
+    if(addBlog==="added")
+    {
+        dispatcchUserEvents("Change-Blog-Status");
+        navigate('/');
+    }
+},[addBlog])
   return (
     <div className='conatiner'>
        

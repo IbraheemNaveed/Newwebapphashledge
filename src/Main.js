@@ -1,30 +1,43 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import App from './App'
 import { Provider } from 'react';
 import { BlogStore } from './BlogStore';
+import { blogData } from './assests/Data';
 const Main = () => {
+const [blogsData,setblogsData]= useState();
 const test = '';
-const [blogsData,setblogsData]= useState(
-  [
-  {blogDetail:'Ut pretium ultricies dignissim. Sed sit amet mi eget urnaplacerat vulputate. Ut vulputate est non quam dignissim elementum. Donec a ullamcorper diam'},
-  {blogDetail:'Ut ultricies dignissim. Sed sit amet mi eget urnaplacerat vulputate. Ut vulputate est non quam dignissim elementum. Donec a ullamcorper diam'},
-  {blogDetail:'Ut dignissim. Sed sit amet mi eget urnaplacerat vulputate. Ut vulputate est non quam dignissim elementum. Donec a ullamcorper diam'},
-  {blogDetail:'Sed sit amet mi eget urnaplacerat vulputate. Ut vulputate est non quam dignissim elementum. Donec a ullamcorper diam'},
-  {blogDetail:'Ut vulputate est non quam dignissim elementum. Donec a ullamcorper diam'}
-]);
+const [addBlog,setaddBlog] = useState('idle');
 const dispatcchUserEvents =(actionType,payload)=>{
   switch (actionType) {
     case 'Add-Blog':
-        console.log(payload.data);
       setblogsData([...blogsData,payload.data]);
+      let blog = localStorage.getItem('blogs');
+      let previousBlogs = JSON.parse(blog);
+      previousBlogs.push(payload.data);
+      localStorage.setItem('blogs',JSON.stringify(previousBlogs));
+      setaddBlog("added");
       break;
-  
+    case 'Change-Blog-Status':
+      setaddBlog('idle');
+      break;  
     default:
       break;
   }
 }
+useEffect(()=>{
+  if(localStorage.getItem('blogs')===null)
+  {
+    localStorage.setItem('blogs',JSON.stringify(blogData));
+    setblogsData(blogData);
+  }
+  else{
+    let blog = localStorage.getItem('blogs');
+    let previousBlogs = JSON.parse(blog);
+    setblogsData(previousBlogs);
+  }
+},[])
   return (
-    <BlogStore.Provider value={{test,blogsData,dispatcchUserEvents}}>
+    <BlogStore.Provider value={{test,blogsData,dispatcchUserEvents,addBlog}}>
     <App/>
     </BlogStore.Provider>
   )

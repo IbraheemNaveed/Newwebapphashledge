@@ -6,6 +6,7 @@ const BlogMain = () => {
   const [isLogin,setisLogin]= useState(false);
   const navigate = useNavigate();
   const {blogsData} = useContext(BlogStore); 
+
   const CheckAndPost =()=>{
    setisLogin(!isLogin);      
 }
@@ -23,7 +24,7 @@ return (
 <div className='mb-32 text-gray-800 text-center'>
 <h2 class="text-3xl font-bold mb-12 text-center">Latest articles</h2>
 <div className='grid lg:grid-cols-3 gap-6 xl:gap-x-12'>
-{blogsData.map((item,index)=>{return(
+{blogsData?.map((item,index)=>{return(
   <Link to="/home/blog/1">
 <div className='mb-6 lg:mb-0'> 
 <img src={Bgg} />
@@ -42,7 +43,7 @@ return (
 </Link>
 )})} 
 </div>
-{blogsData.length}
+{blogsData?.length}
 </div>
 
 </div>
