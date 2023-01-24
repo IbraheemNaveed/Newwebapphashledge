@@ -11,7 +11,6 @@ import Bgsvg from '../assests/NewAssets/Bgsvg.svg'
 import Bgtri from "../assests/bg-tri.svg";
 import Transfermation from './Transfermation';
 import Whatwedo from './Whatwedo';
-import Form from './Form';
 
 export default function Mainpage() {
   return (

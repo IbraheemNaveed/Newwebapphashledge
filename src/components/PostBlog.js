@@ -134,12 +134,12 @@ const PostBlog = props => {
       </div>
       <div className="mb-4">
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}  for="description"  >
             <Editor
               defaultContent={richText}
               tools={tools}
               onChange={onChangeText}
-              contentStyle={{ height: 200 }}
+              contentStyle={{ height: 500 }}
             />
           </form>
         <label className="block text-gray-700 font-medium mb-2" for="description">
