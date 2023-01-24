@@ -19,6 +19,7 @@ import PostBlog from './components/PostBlog';
 import Transfermation from './components/Transfermation';
 import { Contactus } from './components/Contactus';
 import Submit from './components/Submit';
+import "@progress/kendo-theme-default/dist/all.css";
 
 function App() {
   return (
