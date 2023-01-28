@@ -17,8 +17,11 @@ useEffect(()=>{
 },[isLogin,blogsData])
 return (
 <>
-<div className="container my-24 px-6 ">
-  <button className="text-white border-2 bg-[#0e5ba6]" onClick={CheckAndPost}>Post Blog</button>
+<div className="flex mt-6 ">
+<h className=" text-5xl  " >Do you Want to Post a Blog?</h>
+<div className="container  px-6 ">
+  <button className="text-white rounded-2xl px-4  border-2 bg-[#0e5ba6]" onClick={CheckAndPost}>Post Blog</button>
+</div>
 </div>
 <div className='container my-24 px-6 mx-auto'>
 <div className='mb-32 text-gray-800 text-center'>

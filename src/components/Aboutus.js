@@ -144,42 +144,12 @@ Why is it so<u class="text-red-600"> great?</u>
 </div>
     </div> */}
     {/* services */}
-    <div className='container my-24 px-6 mx-auto py-6  bg-transparent bg-[to="/graphic"]  ' > 
+    {/* <div className='container my-24 px-6 mx-auto py-6  bg-transparent bg-[to="/graphic"]  ' > 
     <div className='mb-32 text-gray-800 text-center w-full '>
     <h2 class="text-3xl  font-bold mb-12 font-display text-[#072644]">Our services  </h2>
 <div className='grid md:grid-cols-2 gap-x-6 gap-y-12 lg:gap-x-12' >
 <div className='mb-6 lg:mb-0'>
-<div className='block rounded-lg shadow-lg'>
-<div className='relative overflow-hidden bg-no-repeat bg-cover'>
 
-
-
-
-
-
- <div className='relative'>
-<img className=' w-full h-72  rounded-t-lg rounded-2xl  ' src={Digital} />
-<Link to="/webdev">
-              <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
- </Link>
- <div>
- <img className='bg-inherit  absolute bottom-0  ' src={svgimg} />
- </div>
-</div>
-
-
-
-
-
-
-
-
- <div class="px-6  ">
-            <h5 class="text-lg text-[#0e5ba6] font-bold mb-4 font-display ">Digital Transformation</h5>
-            <p class=" mb-4 text-[#072644]">We help businesses and organizations modernize and streamline their processes and systems through the use of technology. This may involve implementing new software and platforms, integrating existing systems, or developing custom solutions.</p>
-            </div>
-</div>
-</div>
 
 </div>
 <div className='mb-6 lg:mb-0'>
@@ -247,7 +217,7 @@ Why is it so<u class="text-red-600"> great?</u>
 </div>
 
     </div>
-     </div>
+     </div> */}
 </>
 
         );

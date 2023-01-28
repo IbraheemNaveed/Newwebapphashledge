@@ -20,6 +20,7 @@ import Transfermation from './components/Transfermation';
 import { Contactus } from './components/Contactus';
 import Submit from './components/Submit';
 import "@progress/kendo-theme-default/dist/all.css";
+import DigitalTrans from './components/services/DigitalTrans';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
       <Route path='/newBlog' element={<PostBlog/>}/>
       <Route path='/Submit' element={<Submit/>}  />
       <Route path='/transfermation' element={<Transfermation/>}  />
+      <Route path='/Digitaltransf' element={<DigitalTrans/>}  />
     </Routes>
     </BrowserRouter>
          </div>
