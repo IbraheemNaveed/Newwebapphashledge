@@ -12,6 +12,7 @@ import Bgtri from "../assests/bg-tri.svg";
 import Transfermation from './Transfermation';
 import Whatwedo from './Whatwedo';
 
+
 export default function Mainpage() {
   return (
     <div>
@@ -26,6 +27,7 @@ export default function Mainpage() {
    <Whatwedo/>
 <Transfermation/>
 <Footer/>
+
 
     </div>
   )

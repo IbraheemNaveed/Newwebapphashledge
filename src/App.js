@@ -10,7 +10,7 @@ import MachineL from './components/services/MachineL';
 import Blockcahim from './components/services/Blockcahim';
 import Blog1 from './components/Blogs/Blog1';
 import Error from './components/Error';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import GraphicD from './components/services/GraphicD';
 import HeaderNav from './components/Headernavb';
 import { Children } from 'react';
@@ -21,7 +21,9 @@ import { Contactus } from './components/Contactus';
 import Submit from './components/Submit';
 import "@progress/kendo-theme-default/dist/all.css";
 import DigitalTrans from './components/services/DigitalTrans';
-
+import BlogList from './components/Blogs/BlogList';
+import SingleBlog from './components/Blogs/SingleBlog';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
   
@@ -48,8 +50,12 @@ function App() {
       <Route path='/login' element={<Login/>}/>
       <Route path='/newBlog' element={<PostBlog/>}/>
       <Route path='/Submit' element={<Submit/>}  />
+            <Route path='/Submit' element={<Submit/>}  />
       <Route path='/transfermation' element={<Transfermation/>}  />
       <Route path='/Digitaltransf' element={<DigitalTrans/>}  />
+      <Route path="/blogDetails/:id" element={<SingleBlog />} />
+        <Route path="/blogList" element={<BlogList />} />
+        <Route path="/" element={<BlogList />} />
     </Routes>
     </BrowserRouter>
          </div>
