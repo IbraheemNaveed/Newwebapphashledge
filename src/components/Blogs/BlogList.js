@@ -4,15 +4,10 @@ import { Link } from 'react-router-dom'
 import './blog.css'
 const BlogList = () => {
   const [blogPosts, setBlogPosts] = useState([])
-  const client = createClient({ space: "8v72rkodxqxz", accessToken: "4N3B9zLfYsZ7fxhxmChsqens88xyFKG8f3dzFuKj0Wc" })
+  const client = createClient({ space: "8v72rkodxqxz", accessToken: "7SvBqRXY-3-W_plJeHU42I9pXi_QOV2q2DAnUcGCv-0", host: "preview.contentful.com" })
   useEffect(() => {
-    
   }, [])
-
-
-
   return (
-    
     <div id="layout" className="pure-g">
       <div className="  ">
         <div>
@@ -47,7 +42,6 @@ const BlogList = () => {
               </section>
             ))}
           </div>
-
 
           <div className="footer">
             <div className="pure-menu pure-menu-horizontal">
