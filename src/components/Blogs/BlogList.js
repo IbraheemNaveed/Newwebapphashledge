@@ -6,6 +6,15 @@ const BlogList = () => {
   const [blogPosts, setBlogPosts] = useState([])
   const client = createClient({ space: "8v72rkodxqxz", accessToken: "7SvBqRXY-3-W_plJeHU42I9pXi_QOV2q2DAnUcGCv-0", host: "preview.contentful.com" })
   useEffect(() => {
+    client.getEntries().then(function (entries) {
+      console.log('Data that we get from the contentful ',entries)
+      // log the title for all the entries that have it
+      // entries.items.forEach(function (entry) {
+      //   if (entry.fields.productName) {
+      //     console.log(entry.fields.productName);
+      //   }
+      // });
+    })
   }, [])
   return (
     <div id="layout" className="pure-g">

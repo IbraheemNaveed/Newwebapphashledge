@@ -22,6 +22,7 @@ import Submit from './components/Submit';
 import "@progress/kendo-theme-default/dist/all.css";
 import DigitalTrans from './components/services/DigitalTrans';
 import BlogList from './components/Blogs/BlogList';
+import BlogList2 from './components/Blogs/BlogList2';
 import SingleBlog from './components/Blogs/SingleBlog';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
@@ -54,7 +55,8 @@ function App() {
       <Route path='/transfermation' element={<Transfermation/>}  />
       <Route path='/Digitaltransf' element={<DigitalTrans/>}  />
       <Route path="/blogDetails/:id" element={<SingleBlog />} />
-        <Route path="/blogList" element={<BlogList />} />
+        {/* <Route path="/blogList" element={<BlogList />} /> */}
+        <Route path="/blogList" element={<BlogList2 />} />
         <Route path="/" element={<BlogList />} />
     </Routes>
     </BrowserRouter>
