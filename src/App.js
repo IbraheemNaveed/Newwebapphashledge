@@ -38,7 +38,11 @@ function App() {
       <Route path='about' element={<Aboutus/>}/>
       <Route path='contactus' element={<Contactus/>} />
       <Route path='blog' element={<Blogmain/>} />
-      <Route path='footer' element={<Footer/>}  /></Route>
+      <Route path='footer' element={<Footer/>}  />
+      <Route  path="/blogList" element={<BlogList2 />} />
+        <Route path="/blogList1" element={<BlogList />} />
+        <Route path="/blogDetails/:id" element={<SingleBlog />} />
+      </Route>
       <Route path='*' element={<Error/>}/>
       <Route path='webdev' element={<Webdev/>} />
       <Route path='blockchain' element={<Blockcahim/>} />
@@ -54,10 +58,9 @@ function App() {
             <Route path='/Submit' element={<Submit/>}  />
       <Route path='/transfermation' element={<Transfermation/>}  />
       <Route path='/Digitaltransf' element={<DigitalTrans/>}  />
-      <Route path="/blogDetails/:id" element={<SingleBlog />} />
+  
         {/* <Route path="/blogList" element={<BlogList />} /> */}
-        <Route path="/blogList" element={<BlogList2 />} />
-        <Route path="/" element={<BlogList />} />
+      
     </Routes>
     </BrowserRouter>
          </div>

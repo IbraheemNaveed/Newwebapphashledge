@@ -66,14 +66,14 @@ return (
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-[#0e5ba6] font-semibold hover:animate-bounce ">
+                            <li className="text-[#0e5ba6] font-semibold  ">
                                 <Link to="/">Home</Link>
                             </li>
-                            <li className="text-[#0e5ba6] font-semibold hover:animate-bounce">
+                            <li className="text-[#0e5ba6] font-semibold ">
                                 <Link to="/about">About Us</Link>
                             </li>
-                            <li className="text-[#0e5ba6] font-semibold hover:animate-bounce">
-                                <Link to="/blogList">Blog</Link>
+                            <li className="text-[#0e5ba6] font-semibold ">
+                                <Link  to="/blogList1" >Blog</Link>
                             </li>
                             <li className="text-white font-semibold hover:animate-pulse rounded-lg bg-[#0e5ba6] px-2 ">
                                 <Link to="/contactus">Contact US</Link>

@@ -25,18 +25,21 @@ const SingleBlog = () => {
 
 
   return (
-    <div id="layout" className="pure-g">
+    <div id="layout" className="pure-g antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
       <div className="content pure-u-1 pure-u-md-3-4">
         <div>
+        <div className="     w-40  h-36 right-4 bg-gradient-to-r from-[#4ADE80]/50 to-[#6EE7B7]  blur-[100px] absolute ">
+              {" "}
+            </div>
           <div className="posts">
-            <Link to="/blogList" className="content-subhead">Blog Posts</Link>
+            <Link to="/blogList" className="content-subhead">Blog List</Link>
 
-            < section className="post">
+            <section className="post">
               <header className="post-header">
-                <img src={singleBlogPost?.fields?.blogImage?.fields?.file?.url} title="" alt={singleBlogPost?.fields?.title} width="578" height="291" />
+                <img src={singleBlogPost?.fields?.blogImage?.fields?.file?.url} title="" alt={singleBlogPost?.fields?.title}  />
                 <h2 className="post-title pt-3">{singleBlogPost?.fields?.title}</h2>
                 <p className="post-meta">
-                  By <a href="https://thecodeangle.com/" className="post-author">{singleBlogPost?.fields?.blogAuthor}</a> Date <span></span>
+                  By <a href="https://thecodeangle.com/" className="post-author">{singleBlogPost?.fields?.blogAuthor}</a>  <span></span>
                   <small>
                     {singleBlogPost?.fields?.createDate === undefined ?
                       "loading"
@@ -61,7 +64,7 @@ const SingleBlog = () => {
           <div className="footer">
             <div className="pure-menu pure-menu-horizontal">
               <div className="pure-menu-item">
-                <a href="http://twitter.com/thecodeangle" className="pure-menu-link">Twitter</a>
+                <a href="https://twitter.com/ibraheem_tweets" className="pure-menu-link">Twitter</a>
               </div>
             </div>
           </div>
